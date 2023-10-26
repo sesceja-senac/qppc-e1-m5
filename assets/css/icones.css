@@ -1,0 +1,75 @@
+.icone::before{
+    display: block;
+    content: "";
+    width: 119px;
+    height: 127px;
+    background-color: white;
+    position: absolute;
+    top:-20px;
+    left: -60px;   
+    background-repeat: no-repeat;  
+}
+
+.icone.dica::before{
+    background-image: url(../img/ico_dica2.png);
+}
+
+.icone.praticar::before{
+    background-image: url(../img/ico_vamospraticar2.png);
+}
+
+.icone.pergunta::before{
+    background-image: url(../img/ico_pergunta2.png);
+}
+.icone.refletir::before{
+    background-image: url(../img/ico_refletir2.png);
+}
+
+.icone.saiba-mais::before{
+    background-image: url(../img/ico_saibamais2.png);
+}
+
+.icone.atencao::before{
+    background-image: url(../img/ico_atencao2.png);
+    width: 127px;
+    left: -68px;
+}
+
+.icone.importante::before {
+    background-image: url(../img/ico_importante.png);
+  }
+.icone.nota::before{
+    background-image: url(../img/icone_nota2.png);
+}
+.icone.pesquisar::before{
+    background-image: url(../img/ico_pesquisar.png);
+    width: 109px;
+    height: 102px;
+}
+
+@media only screen and (max-width: 991px){
+    .icone.importante::before {
+        left: -30px;
+    
+    }
+    .icone.importante{
+        padding-left: 71px !important
+    }
+}
+
+@media print{
+    .icone::before{
+        display:none !important
+    }
+}
+@media only screen and (max-width: 430px){
+    .icone.refletir::before{ margin-left: 40px;}
+    .icone.importante::before{ margin-left: 40px;}
+    .icone.atencao::before{ margin-left: 40px;}
+    .icone.saiba-mais::before{ margin-left: 20px;}
+    .icone.pergunta::before{ margin-left: 40px;}
+    .icone.praticar::before{ margin-left: 40px;}
+    .icone.pesquisar::before{ margin-left: 24px;}
+    .caixa p{padding-top: 60px;}
+
+}

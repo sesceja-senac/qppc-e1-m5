@@ -1,0 +1,702 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../font/Poppins/Poppins-Bold.ttf);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.itensRight{
+    position: absolute;
+    right: 50px;
+}
+#tela-inicial {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    /* overflow: hidden; */
+    transform-origin: bottom left;
+    background-color: #8ae0e2;
+}
+
+#bg {
+    background-color: #8ae0e2;
+    height: 100vh;
+}
+
+#tela-inicial .fundo {
+    position: absolute;
+    height: 100vh;
+    width: 1920px;   
+}
+
+#tela-inicial-mobile {
+    display: none;
+}
+
+.titulo {
+    position: absolute;
+    right: 70px;
+    top: 35px;
+    width: 735px;
+    height: auto;
+    z-index: 5;
+}
+
+.subtitulo {
+    position: absolute;
+    right: 70px;
+    width: 634px;
+    top: 135px;
+    z-index: 5;
+}
+
+#chao {
+    bottom: 0px;
+    z-index: 9;
+}
+
+#fundo {
+    z-index: 4;
+}
+
+.nuvem {
+    transition:left 4.5s linear;
+}
+
+#nuvem-1 {
+    left: 16%;
+    position: absolute;
+    z-index: 11;
+    top:16%;
+}
+
+.nuvem.active {
+    transition:left 4.5s linear;
+}
+
+#nuvem-1.active {
+    left: 3%;
+}
+
+#nuvem-2 {
+    position: absolute;
+    top: 5%;
+    z-index: 11;
+    left: 32%;
+}
+
+#nuvem-2.active {
+    left: 25%;
+}
+
+#nuvem-3 {
+    top: 0%;
+    z-index: 11;
+    position: absolute;
+    left: 50%;
+}
+
+#nuvem-3.active {
+    left: 60%;
+}
+
+#cidade {
+    z-index: 6;    
+}
+
+#postes {
+    z-index: 6;
+}
+
+#usina {
+    z-index: 8;
+}
+
+#eletrica {
+    z-index: 7;
+    top: 0;
+}
+
+#helice-1 {
+    position: absolute;
+    z-index: 10;
+    left: 29%;
+    top: 14%;
+}
+
+#helice-2 {
+    position: absolute;
+    z-index: 10;
+    left: 36%;
+    top: 20.5%;
+}
+
+#helice-3 {
+    position: absolute;
+    z-index: 10;
+    left: 43.2%;
+    top: 14.5%;
+}
+
+
+#eletricidade-1 {
+    position: absolute;
+    z-index: 11;
+    bottom: 25%;
+    right: 21%;
+    transform: rotate(-30deg);
+}
+
+#eletricidade-2 {
+    position: absolute;
+    z-index: 11;
+    bottom: 25%;
+    right: 16%;
+    transform: rotate(30deg);
+}
+
+.links {
+    position: absolute;
+    right: 80px;
+    top: 250px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#tela-inicial .btn {
+    background-color: transparent;
+    height: 139px;
+    width: 320px;
+    z-index: 1000;
+    background-size: contain;
+}
+
+.btn:focus {
+    box-shadow: unset;
+}
+
+#tela-inicial .btn:hover {
+    transform: scale(1.03);
+}
+
+.logo{
+    bottom: 130px;
+    right: 40px;
+    position: absolute;
+    z-index: 10;
+}
+
+.iniciar1{
+    bottom: 36%;
+    right: 13%;
+    width: 326px;
+    height: 171px;
+    position: absolute;
+    z-index: 99999;
+    background: url('../../assets/objetos/tela-inicial/bt_iniciar.png') no-repeat;
+}
+
+.iniciar1:hover{
+    background: url(../objetos/tela-inicial/bt_iniciar_hv.png) no-repeat;
+    width: 326px;
+    height: 171px;
+
+}
+
+
+.titulomob{
+    position: absolute;
+    width: 735px;
+    height: auto;
+    z-index: 5;
+}
+
+
+
+
+/*-------------- Modal vídeo intro --------------*/
+.imgVideo {
+    margin-left: 90px;
+    margin-top: 60px;
+    position: absolute;
+    background: url('../objetos/Video_apresentacao_pq_layout.png') no-repeat;
+    background-size: 80%;
+    width: 236px;
+    height: 226px;
+    border: none;
+    transition: all 0.2s;
+    z-index: 99;
+}
+.imgVideo:hover{
+    transform: scale(1.05);
+    
+}
+.modal-dialog:not(.modal-fullscreen) {
+    border-radius: 0;
+}
+.modal-dialog:not(.modal-fullscreen) .btn-close{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 0;
+}
+.modal-dialog:not(.modal-fullscreen) .modal-content{
+    border-radius: 0;
+}
+.modal-dialog .modal-header{
+    border-bottom: 0;
+}
+.modal-dialog:not(.modal-fullscreen) .modal-header{
+    color: white;
+    background-color: #00838D;
+    border-radius: 0;
+    border-bottom: 0;
+}
+.modal-dialog .modal-footer{
+    border: 0;
+    border-top: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.ytb {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+}
+.backdrop {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(35, 35, 35, .9);
+    z-index: 9999999999999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-intro {
+    background-image: url('../objetos/modal-bg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999999999;
+}
+.modal-intro p {
+    margin-top: -70px;
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: end;
+    width: 480px;
+    padding-top: 10px;
+}
+.botao-fechar,
+.botao-fechar-2 {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 2px 1px 3px #333;
+}
+.botao-fechar:hover,
+.botao-fechar-2:hover {
+    transform: translateY(-3px);
+}
+
+.posteNovo{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 254px;
+    z-index: 4;
+}
+.posteNovo2{
+    position: absolute;
+    right: -250px;
+    left: 0;
+    margin: 0 auto;
+    top: 204px;
+    z-index: 4;
+}
+.posteNovo3{
+    position: absolute;
+    right: 0;
+    left: -250px;
+    margin: 0 auto;
+    top: 204px;
+    z-index: 4;
+}
+/*-------------- /Modal vídeo intro --------------*/
+
+
+@media screen and (max-width: 1930px) {
+
+    .div-conteudo{
+        transform: scale(0.8);
+        margin-top: -60px;
+        margin-bottom: -40px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) { 
+/* 
+    .div-conteudo{
+        transform: scale(0.70);
+        margin-top: -100px;
+        margin-bottom: -40px;
+    }
+   
+    #tela-inicial{
+        transform: scale(0.75);
+    } */
+    
+}
+
+
+@media screen and (max-width: 1400px) { 
+    
+    #nuvem-2{
+        display: none;
+    }
+    /* .div-conteudo{
+        transform: scale(0.70);
+        margin-top: -100px;
+        margin-bottom: -40px;
+    } */
+    /* #tela-inicial{
+        transform: scale(0.729167);
+    }
+    #helice-2 {
+        top: 22.5%;
+    }
+    #helice-1 {
+        top: 16%;
+    }
+    #helice-3 {
+        top: 16.5%;
+    }
+    .subtitulo {
+        top: 154px;
+        z-index: 5;
+    }
+    .logo {
+        bottom: 156px;} */
+
+}
+
+@media screen and (max-width: 1370px) {
+/* #tela-inicial{
+    transform: scale(0.729167);
+} */
+/* #helice-1 {
+    top: 11%;
+}
+#helice-2 {
+    top: 16.5%;
+}
+#helice-3 {
+    top: 10.5%;
+} */
+/* .logo {
+    bottom: 116px;
+    right: 76px;
+}
+.titulo {top:-13px;}
+.subtitulo {
+    top: 90px;}
+} */
+
+@media screen and (max-width: 1079px) {
+    .subtitulo {
+        top: 155px;
+    }
+    .itensRight {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0px auto;
+    }
+    .imgVideo{
+        bottom: 50px;
+    }
+    .ytb {
+        width: 320px;
+        height: 180px;
+    }
+    .modal-intro p {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .footer {
+        width: auto;
+    }
+
+}
+
+@media screen and (min-width: 825px) {
+    /* #tela-inicial-mobile{display: none;} */
+}
+
+@media screen and (max-width: 820px) {
+    
+    .itensRight {
+        max-width: 80%;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0px auto;
+    }
+    /* #tela-inicial{display: none;}
+    #bg {
+        display: none;
+    }
+    
+    #tela-inicial-mobile {
+        background-image: url('../objetos/tela-inicial/mob_bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    #tela-inicial-mobile .titulo-mobile {
+        margin: 40px 5px 10px 5px;
+        background-color: rgba(105, 105, 105, .4);
+        border-radius: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .obj-casa {
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #atv-1 {
+        top: unset;
+        left: 20px;
+        right: unset;
+        bottom: 10px;
+        height: 80px;
+        width: 220px;
+    }
+    #atv-2 {
+        right: 20px;
+        left: unset;
+        top: unset;
+        bottom: 10px;
+        height: 80px;
+    }
+    #atv-3 {
+        top: 10px;
+        bottom: unset;
+        left: 20px;
+        right: unset;
+        height: 80px;
+    }
+    #atv-4 {
+        top: 10px;
+        bottom: unset;
+        right: 20px;
+        left: unset;
+        height: 80px;
+    }
+
+    .modais-hidr {
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .modais-hidr button {
+        pointer-events: none;
+        
+    }
+   
+    .obj-lamp {
+        display: none;
+    }
+
+    .card {
+        width: 160px;
+        height: 211px;
+    }
+    .imgVideo {
+        margin-left: 10%;
+        margin-top: 105%;
+    }
+    .logo {
+        bottom: 4%;
+        right: 3%;
+    } */
+
+}
+
+@media screen and (max-width: 700px) {
+    /* .obj-tipos {
+        display: none;
+    }
+    .btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btns button {
+        margin: 5px;
+        width: 180px;
+    } */
+    
+}
+
+@media screen and (max-width: 650px) {
+    /* .hidden-xs {
+        display: none;
+    }
+    .hq-row {
+        flex-direction: column;
+    }
+    .row-reverse {
+        flex-direction: column-reverse;
+    }
+    .hq-row div {
+        width: 100%;
+    }
+    .hq-img img{
+        display: block;
+        margin: 2px auto;
+    }
+    .hq-text {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .btn-container {
+        justify-content: flex-start;
+    }
+    .obj-calculadora {
+        width: 100%;
+    }
+    .obj-calculadora input {
+        width: 40%;
+    }
+    .obj-solar {
+        margin-left: -60px;
+    }
+    .card-row {
+        flex-wrap: wrap;
+    }
+    .modal-intro {
+        width: 100%;
+        padding: 15px;
+        background-image: unset;
+        background-color: #00838D;
+        margin: 15px;
+    }
+     */
+}
+
+@media screen and (max-width: 420px) {
+    /* #atv-1 {
+        top: unset;        
+        right: unset;
+        bottom: 30px;
+        height: 80px;
+        width: 220px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #atv-2 {
+        right: unset;        
+        top: unset;
+        bottom: 120px;
+        height: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 220px;
+    }
+    #atv-3 {
+        top: 110px;
+        bottom: unset;
+        left: 50%;
+        transform: translateX(-50%);
+        right: unset;
+        height: 80px;
+    }
+    #atv-4 {
+        top: 20px;
+        bottom: unset;
+        right: 20px;
+        left: unset;
+        height: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    iframe {
+        width: 100%;
+        height: 320px;
+    }
+    .modais-hidr,
+    .modais-term {
+        display: none;
+    }
+    .descricao-mobile {
+        display: block;
+    }
+    .infografico {
+        width: 100%;
+    } */
+    .modal-intro {
+        width: 100%;
+        padding: 15px;
+        background-image: unset;
+        background-color: #00838D;
+        margin: 15px;
+    }
+    .imgVideo {
+        margin-left: 0%;
+        margin-top: 130%;
+    }
+    
+}
+@media screen and (max-width: 380px) {
+.imgVideo {
+    margin-left: 0%;
+    margin-top: 169%;
+}
+
+}
