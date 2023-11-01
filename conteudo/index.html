@@ -27,65 +27,51 @@
     <div class="anim"></div>
     <h1>Aguarde enquanto o conteúdo é carregado.</h1>
   </div>
-  <!-- MARCA D´ÁGUA -->
-  <img src="../assets/img/sesccncsenac.png" id="marcadaguaLogo" />
+  <img src="../assets/img/sesccncsenac.png" id="marcadaguaLogo">
   <header id="topo" class="sesc no-print">
-    <img src="../assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="" />
+    <div class="dropdown">
+      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+      <ul class="dropdown-menu">
+        <li>
+          <a class="dropdown-item" href="?page=1#titulo1">Relembrando os módulos anteriores
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="?page=2#titulo2">Modelos de produção cultural</a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="?page=3#titulo3">PerifaCon</a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="?page=4#titulo4">O que faz o produtor cultural
+          </a>
+        </li>
+        <li><a class="dropdown-item" href="?page=5#titulo5">Qual é o papel do produtor cultural?</a></li>
+        <li><a class="dropdown-item" href="?page=6#titulo6">Referências</a></li>
+      </ul>
+    </div>
+    <img src="../assets/img/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
   </header>
-  <div class="dropdown">
-    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-    <ul class="dropdown-menu">
-      <li>
-        <a class="dropdown-item" href="?page=1#titulo1">Relembrando os módulos anteriores
-        </a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="?page=2#titulo2">Modelos de produção cultural</a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="?page=3#titulo3">PerifaCon</a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="?page=4#titulo4">O que faz o produtor cultural
-        </a>
-      </li>
-      <li><a class="dropdown-item" href="?page=5#titulo5">Qual é o papel do produtor cultural?</a></li>
-      <li><a class="dropdown-item" href="?page=6#titulo6">Referências</a></li>
-    </ul>
-  </div>
-  <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
   <section id="booklet">
-    <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
-    <!-- <header class="titulo-conteudo mb-0 print">
-      <div class="container" style="padding-top:1px">
-        <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Produtor Cultural</h1>
-        <div class="row g-0 pb-4 pt-4">
-          <div class="col-9 d-flex flex-column justify-content-center align-items-start">
-          </div>
-          <div class="col-3 d-flex flex-column justify-content-center align-items-end">
-            <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-              imprimir</button>
-          </div>
-        </div>
-      </div>
-    </header> -->
     <section class="paginas">
       <div class="pagina pg1">
-        <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-          <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-            imprimir</button>
-        </div>
         <div class="bloco1">
           <div class="container">
-            <!-- <div class="caixa1 icone saiba-mais">
-              <p>teste</p>
+            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
+              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
+                imprimir</button>
             </div>
-            <div class="caixa1 icone refletir">
-              <p>teste
-              </p>
-            </div> -->
-            <h2>Produção cultural: conceitos, modelos de produção, distribuição e consumo de cultura no Brasil</h2>
-            <h3>Relembrando os módulos anteriores</h3>
+            <img src="../assets/objetos/bg1_2_1.png" class="no-print rellax  rellax1 d-none d-xl-block"
+              data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
+
+            <img src="../assets/objetos/parallax1_1.png" class="no-print rellax  rellax2 d-none d-xl-block"
+              data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
+
+            <img src="../assets/objetos/parallax2_1.png" class=" no-print rellax  rellax3 d-none d-xl-block"
+              data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
+            <h2 class="titulo-pg1">Produção cultural: <br> conceitos, modelos de produção, distribuição e consumo de
+              cultura no Brasil</h2>
+            <h3 class="titulo2-pg1">Relembrando os módulos anteriores</h3>
             <p>Olá, estudante! Bem-vindo ao último tópico da unidade curricular 1.</p>
             <p>
               Depois que aprendemos mais sobre cultura, diversidade cultural, economia criativa, economia da cultura,
@@ -122,16 +108,18 @@
             <p>Está pronto? Então segure-se! Chegou a hora de zarpar...</p>
           </div>
         </div>
+
+        <img src="../assets/objetos/bg2_div1_1.png" class="img-fluid divisoria1 no-print">
         <div class="bloco2">
           <div class="container">
-            <h3>O que é produção cultural</h3>
+            <h3 class="titulo2-pg1">O que é produção cultural</h3>
             <p>O trajeto de estudo sobre produção cultural começa com a busca pela compreensão do próprio conceito de
               produção cultural. Porém é importante ter em mente que, neste mar agitado, os conceitos e os termos, às
               vezes, têm múltiplas definições e vivem em constante movimento, assim como a cultura e a influência na
               sociedade.</p>
             <p>Agora convidamos você a sintonizar o podcast “Desbravando a produção cultural”. Nele você saberá um pouco
               mais sobre os conceitos de produção cultural.</p>
-            <p>Então se prepare e dê o play! </p>
+            <p class="no-print">Então se prepare e dê o play! </p>
             <h4>Desbravando a produção cultural</h4>
             <div class="bg-podcast my-5 no-print aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
               <div class="d-flex justify-content-center aos-init aos-animate" data-aos="zoom-in">
@@ -154,15 +142,15 @@
                 </div>
               </div>
             </div>
-            <div class="modal fade no-print" id="modal-transcricao-audio" tabindex="-1"
+            <div class="modal fade no-print " id="modal-transcricao-audio" tabindex="-1"
               aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content no-print">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Transcrição</h5>
+                    <h5 class="modal-title-transcricao" id="exampleModalLabel">Transcrição</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body-transcricao">
                     <p>A produção cultural está em nosso cotidiano, na maneira como percebemos a arte e vivenciamos a
                       cultura. É um modo de viver e de pensar que está ligado ao nosso cotidiano. Em outras palavras,
                       produção cultural são ações e atividades culturais e artísticas pensadas e organizadas, as quais
@@ -248,6 +236,13 @@
                 como fazedores de cultura, artistas, gestores públicos e privados, curadores, educadores, especialistas,
                 técnicos, profissionais de marketing, entre outros.</p>
             </div>
+          </div>
+        </div>
+        <img src="../assets/objetos/bg2_div2_1.png" class="img-fluid divisoria2 no-print">
+
+
+        <div class="bloco2_1">
+          <div class="container">
             <img src="../assets/objetos/img_navegacao.png" class="img-fluid d-block mx-auto no-print"
               data-aos="fade-up">
             <p class="only-print">Para seguir em nossa navegação, veremos alguns dos diferentes modelos de produção
@@ -257,14 +252,15 @@
         </div>
       </div>
 
+
       <div class="pagina pg2">
-        <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-          <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-            imprimir</button>
-        </div>
         <div class="bloco3">
           <div class="container">
-            <h3> Modelos de produção cultural</h3>
+            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
+              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
+                imprimir</button>
+            </div>
+            <h3 class="titulo-pg2">Modelos de produção cultural</h3>
             <p> A produção cultural é um universo amplo e diverso em que a criatividade e as expressões culturais e
               artísticas são impulsionadas. A diversidade presente nesse universo exige abordagens de produção
               específicas
@@ -275,6 +271,10 @@
               sobre os principais modelos de produção em desenvolvimento no país. Mas, certamente, existem muito mais
               modelos e novos estão sendo criados constantemente, afinal, a cultura é dinâmica!</p>
             <p class="no-print">Clique ou toque em cada produção cultural e descubra mais sobre ela.</p>
+          </div>
+        </div>
+        <div class="bloco3_1">
+          <div class="container">
             <div class="painel-exposicao no-print" aria-hidden="true" data-aos="fade-up">
               <button class="btn-exposicao1" data-bs-toggle="modal" data-bs-target="#modal-exposicao1"></button>
               <button class="btn-exposicao2" data-bs-toggle="modal" data-bs-target="#modal-exposicao2"></button>
@@ -293,7 +293,9 @@
                   </div>
                   <div class="modal-body">
                     <div class="container">
-                      <h5>Produção audiovisual</h5>
+                      <div class="titulo-modal">
+                        <h5>Produção audiovisual</h5>
+                      </div>
                       <p>Refere-se à produção de <a href="Javascript:" data-bs-toggle="tooltip"
                           data-bs-title="Filmes podem ser feitos no formato de curta-metragem, com duração de até 15 minutos, média-metragem, com duração de 15 a 70 minutos, ou longa-metragem, com duração acima de 70 minutos.">filmes</a>,
                         séries ou minisséries, webséries (séries para Internet), audiolivros (livro narrado),
@@ -322,8 +324,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
                       Fechar
                     </button>
                   </div>
@@ -340,7 +342,9 @@
                   </div>
                   <div class="modal-body">
                     <div class="container">
-                      <h5>Produção em artes visuais</h5>
+                      <div class="titulo-modal">
+                        <h5>Produção em artes visuais</h5>
+                      </div>
                       <p>A produção em artes visuais abrange a realização de exposições de artes visuais como pinturas,
                         esculturas, desenhos, cerâmica, aquarelas, fotografias, artesanato e projeções multimídias.
                         Essas
@@ -360,8 +364,8 @@
                         padre segurando uma pomba branca; um homem de camisa branca aberta no peito e chapéu.</div>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
                       Fechar
                     </button>
                   </div>
@@ -378,7 +382,9 @@
                   </div>
                   <div class="modal-body">
                     <div class="container">
-                      <h5>Produção de artes cênicas</h5>
+                      <div class="titulo-modal">
+                        <h5>Produção de artes cênicas</h5>
+                      </div>
                       <p>Esse tipo produção está relacionado a toda a estrutura necessária para a execução de obra
                         artística apresentada ao vivo em palcos, edifícios teatrais, anfiteatros, salas e arenas. Dentro
                         das produções de artes cênicas, é possível ter espetáculos de dança, circo, teatro e
@@ -401,8 +407,8 @@
                         cena, interpretando.</div>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
                       Fechar
                     </button>
                   </div>
@@ -419,7 +425,9 @@
                   </div>
                   <div class="modal-body">
                     <div class="container">
-                      <h5>Produção em patrimônio cultural</h5>
+                      <div class="titulo-modal">
+                        <h5>Produção em patrimônio cultural</h5>
+                      </div>
                       <p>Representa projetos de preservação, restauração e promoção do patrimônio cultural, exposições,
                         mostras, festivais e feiras gastronômicas, artesanato e festas tradicionais das culturas
                         populares. Esses projetos podem ser realizados em espaços abertos, museus, centros culturais,
@@ -435,8 +443,8 @@
                       <div class="sr-only acessivel">Foto de variados doces dentro de uma caixa branca de madeira.</div>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
                       Fechar
                     </button>
                   </div>
@@ -453,7 +461,9 @@
                   </div>
                   <div class="modal-body">
                     <div class="container">
-                      <h5>Produção musical</h5>
+                      <div class="titulo-modal">
+                        <h5>Produção musical</h5>
+                      </div>
                       <p>A produção musical consiste na produção de artistas ligados ao mercado fonográfico, como
                         músicos,
                         musicistas, gestores, técnicos de sonorização, instrumentistas, letristas e intérpretes. Essa
@@ -474,8 +484,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
                       Fechar
                     </button>
                   </div>
@@ -492,7 +502,9 @@
                   </div>
                   <div class="modal-body">
                     <div class="container">
-                      <h5>Produção literária</h5>
+                      <div class="titulo-modal">
+                        <h5>Produção literária</h5>
+                      </div>
                       <p>É a produção de feiras, festivais literários, saraus, assim como lançamentos de livros,
                         revistas,
                         <em>e-books</em> etc.
@@ -508,8 +520,8 @@
                         sentadas e outras em pé, ao redor de bancas de expositores.</div>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
                       Fechar
                     </button>
                   </div>
@@ -641,7 +653,7 @@
         </div>
         <div class="bloco4">
           <div class="container">
-            <h3>Produção de eventos</h3>
+            <h3 class="titulo2-pg2">Produção de eventos</h3>
             <p>Uma forma importante de inserção no mundo do trabalho para os produtores culturais é a produção de
               eventos
               de diversas áreas. Por exemplo, eventos de turismo, gastronomia, esporte, empreendedorismo, tecnologia,
@@ -668,7 +680,7 @@
         </div>
         <div class="bloco5">
           <div class="container">
-            <h3>Como a cultura se espalha pelo Brasil </h3>
+            <h3 class="titulo-pg2">Como a cultura se espalha pelo Brasil </h3>
             <p>Temos visto como a cultura é um processo dinâmico que envolve muitas atividades diferentes e está sempre
               em transformação. Também percebemos os aspectos coletivos e identitários da cultura, ou seja, que a
               cultura se produz coletivamente e faz parte da forma como estamos no mundo, como entendemos nossos
@@ -683,14 +695,14 @@
                 cultura. </p>
             </div>
             <div class="row">
-              <div class="col-6">
-                <h4>Quem espalha a cultura por aí</h4>
+              <div class="col-lg-6 col-md-12">
+                <h4 class="titulo3-pg2">Quem espalha a cultura por aí</h4>
                 <p>Mestres da cultura popular, benzedeiras, artistas de teatro, curadores, trovadores, artesãs, entre
                   outros, quem são as pessoas, as empresas e as instituições ao seu redor que movimentam a cultura,
                   promovem, realizam e divulgam projetos e eventos culturais? Elas são o que chamamos de difusores
                   culturais. </p>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6 col-md-12">
                 <img src="../assets/objetos/img_cultura.png" class="img-fluid d-block mx-auto no-print">
               </div>
             </div>
@@ -712,17 +724,20 @@
               promovem movimentos de transformação no modo como se produz e espalha cultura. </p>
           </div>
         </div>
-        <div class="rodape"></div>
       </div>
 
       <div class="pagina pg3">
-        <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-          <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-            imprimir</button>
-        </div>
         <div class="bloco6">
           <div class="container">
-            <h3>Um exemplo de difusão cultural nas periferias brasileiras: a PerifaCon</h3>
+            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
+              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
+                imprimir</button>
+            </div>
+            <img src="../assets/objetos/parallax_dir_3.png" class="no-print rellax  rellax4 d-none d-xl-block"
+              data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
+            <img src="../assets/objetos/parallax_esq_3.png" class="no-print rellax  rellax5 d-none d-xl-block"
+              data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
+            <h3 class="titulo-pg3">Um exemplo de difusão cultural nas periferias brasileiras: a PerifaCon</h3>
             <p>A PerifaCon, realizada desde 2019, na cidade de São Paulo, é uma convenção de cultura <i>pop</i>,
               <i>nerd</i> e <i>geek</i>
               das favelas. Luíze Tavares (<i>apud</i> G1, 2019), organizadora da PerifaCon, falando sobre a difusão de
@@ -768,9 +783,10 @@
             </div>
           </div>
         </div>
+        <div class="parallax" id="parallax-1"></div>
         <div class="bloco7">
           <div class="container">
-            <h3>Distribuição e consumo cultural na era digital</h3>
+            <h3 class="titulo-pg3">Distribuição e consumo cultural na era digital</h3>
             <p>É preciso ressaltar a importância das plataformas digitais na distribuição e no consumo cultural, sendo,
               inclusive, meios estratégicos na hora de pensar a produção cultural atualmente. Se na indústria cultural
               sul-coreana essas plataformas levam produções a mercados internacionais, aqui no Brasil elas trazem um
@@ -782,24 +798,37 @@
             <p>Confira agora esses exemplos de distribuição e consumo por meio de plataformas digitais, <span
                 class="no-print">para isso,
                 clique ou toque nas imagens. </span></p>
-            <div id="carousel" class="no-print painel_digital">
-              <div class="hideLeft">
+
+            <div class="d-none d-lg-block">
+              <div id="carousel" class="no-print painel_digital">
+                <div class="prev">
+                  <button class="btn-digital1" data-bs-toggle="modal" data-bs-target="#modal-digital1"></button>
+                </div>
+                <div class="prev">
+                  <button class="btn-digital2" data-bs-toggle="modal" data-bs-target="#modal-digital2"></button>
+                </div>
+                <div class="selected">
+                  <button class="btn-digital3" data-bs-toggle="modal" data-bs-target="#modal-digital3"></button>
+                </div>
+                <div class="next">
+                  <button class="btn-digital4" data-bs-toggle="modal" data-bs-target="#modal-digital4"></button>
+                </div>
+              </div>
+              <div class="buttons no-print">
+                <button id="prev"></button>
+                <button id="next"></button>
+              </div>
+            </div>
+
+            <div class="d-block d-lg-none">
+              <div class="d-flex mobile no-print">
                 <button class="btn-digital1" data-bs-toggle="modal" data-bs-target="#modal-digital1"></button>
-              </div>
-              <div class="prevLeftSecond">
                 <button class="btn-digital2" data-bs-toggle="modal" data-bs-target="#modal-digital2"></button>
-              </div>
-              <div class="prev">
                 <button class="btn-digital3" data-bs-toggle="modal" data-bs-target="#modal-digital3"></button>
-              </div>
-              <div class="selected">
                 <button class="btn-digital4" data-bs-toggle="modal" data-bs-target="#modal-digital4"></button>
               </div>
             </div>
-            <div class="buttons no-print">
-              <button id="prev">Prev</button>
-              <button id="next">Next</button>
-            </div>
+
             <div class="modal fade" id="modal-digital1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
               aria-hidden="true">
               <div class="modal-dialog" role="document">
@@ -808,9 +837,11 @@
                     <h5 class="modal-title"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body-simples">
                     <div class="container">
-                      <h3><b>BTS</b></h3>
+                      <div class="titulo-modal">
+                        <h5><b>BTS</b></h5>
+                      </div>
                       <figure>
                         <img src="../assets/objetos/painel_digital1.png" class="img-fluid d-block mx-auto">
                         <figcaption>
@@ -855,7 +886,7 @@
                     </div>
                   </div>
                   <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
                       Fechar
                     </button>
                   </div>
@@ -870,9 +901,11 @@
                     <h5 class="modal-title"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body-simples">
                     <div class="container">
-                      <h3><b><i>Despacito (2017) – Luis Fonsi</i></b></h3>
+                      <div class="titulo-modal">
+                        <h5><b><i>Despacito (2017) – Luis Fonsi</i></b></h5>
+                      </div>
                       <figure>
                         <img src="../assets/objetos/painel_digital2.png" class="img-fluid d-block mx-auto">
                         <figcaption>
@@ -905,7 +938,7 @@
                     </div>
                   </div>
                   <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
                       Fechar
                     </button>
                   </div>
@@ -920,9 +953,11 @@
                     <h5 class="modal-title"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body-simples">
                     <div class="container">
-                      <h3><b><i>Envolver</i>(2022) – Anitta</b></h3>
+                      <div class="titulo-modal">
+                        <h5><b><i>Envolver</i> (2022) – Anitta</b></h5>
+                      </div>
                       <figure>
                         <img src="../assets/objetos/painel_digital3.png" class="img-fluid d-block mx-auto">
                         <figcaption>
@@ -949,7 +984,7 @@
                     </div>
                   </div>
                   <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
                       Fechar
                     </button>
                   </div>
@@ -964,9 +999,11 @@
                     <h5 class="modal-title"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body-simples">
                     <div class="container">
-                      <h3><b>Ailton Krenak</b></h3>
+                      <div class="titulo-modal">
+                        <h5><b>Ailton Krenak</b></h5>
+                      </div>
                       <figure>
                         <img src="../assets/objetos/painel_digital4.png" class="img-fluid d-block mx-auto">
                         <figcaption>
@@ -988,26 +1025,27 @@
                         Assembleia
                         Legislativa de Minas Gerais e está disponível na íntegra, no canal da Assembleia no YouTube.
                       </p>
+                      <p>As plataformas digitais evoluíram não apenas como meio de entretenimento, mas também como
+                        ferramentas de
+                        comércio. Por exemplo, o surgimento de <i>marketplaces</i>. Em um <i>marketplace</i>, os
+                        vendedores podem
+                        cadastrar seus
+                        produtos e serviços, mas a responsabilidade pela divulgação é deles, e não da plataforma. Redes
+                        sociais,
+                        como o Facebook e o Instagram, bem como empresas de varejo, como a Magazine Luiza e a
+                        Americanas,
+                        também
+                        adotaram esse modelo. Essa tendência em expansão, dos <i>marketplaces</i>, oferece oportunidades
+                        para uma
+                        grande
+                        variedade de produtos, incluindo artesanato, arte digital e bens culturais. </p>
                     </div>
-                    <p>As plataformas digitais evoluíram não apenas como meio de entretenimento, mas também como
-                      ferramentas de
-                      comércio. Por exemplo, o surgimento de <i>marketplaces</i>. Em um <i>marketplace</i>, os
-                      vendedores podem
-                      cadastrar seus
-                      produtos e serviços, mas a responsabilidade pela divulgação é deles, e não da plataforma. Redes
-                      sociais,
-                      como o Facebook e o Instagram, bem como empresas de varejo, como a Magazine Luiza e a Americanas,
-                      também
-                      adotaram esse modelo. Essa tendência em expansão, dos <i>marketplaces</i>, oferece oportunidades
-                      para uma
-                      grande
-                      variedade de produtos, incluindo artesanato, arte digital e bens culturais. </p>
                   </div>
-                </div>
-                <div class="modal-footer justify-content-center">
-                  <button type="button" class="btn-sesc" data-bs-dismiss="modal">
-                    Fechar
-                  </button>
+                  <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1110,307 +1148,324 @@
               variedade de produtos, incluindo artesanato, arte digital e bens culturais. </p>
           </div>
         </div>
-      <div class="bloco8">
-        <div class="container">
-          <p>A Tucum, <i>marketplace</i> criado por Amanda Santana, é uma plataforma que congrega lojas virtuais de
-            artesanato de povos indígenas brasileiros. Segundo o <i>site</i>, “toda ação da Tucum visa estimular ou
-            proporcionar a autonomia e a geração de renda para os povos indígenas e comunidades tradicionais com que
-            trabalhamos” (TUCUM, c2016). </p>
-          <figure>
-            <img src="../assets/objetos/figura_12.png" class="img-fluid d-block mx-auto">
-            <figcaption>
-              Figura 12 – <i>Marketplace</i> Tucum
-              <br>
-              Fonte: Tucum (c2016)
-              <p class="sr-only no-print">Captura da tela do site Tucum. Em cima, ao centro, consta o nome “TUCUM:
-                <i>marketplace</i> das artes indígenas”. No centro da imagem há seis vasos de cerâmica em tons marrons
-                com grafismos indígenas. À esquerda consta o texto “indígena feminina ancestral arte do Alto do Rio
-                Negro”.
+        <div class="bloco8">
+          <div class="container">
+            <p>A Tucum, <i>marketplace</i> criado por Amanda Santana, é uma plataforma que congrega lojas virtuais de
+              artesanato de povos indígenas brasileiros. Segundo o <i>site</i>, “toda ação da Tucum visa estimular ou
+              proporcionar a autonomia e a geração de renda para os povos indígenas e comunidades tradicionais com que
+              trabalhamos” (TUCUM, c2016). </p>
+            <figure>
+              <img src="../assets/objetos/figura_12.png" class="img-fluid d-block mx-auto">
+              <figcaption>
+                Figura 12 – <i>Marketplace</i> Tucum
+                <br>
+                Fonte: Tucum (c2016)
+                <p class="sr-only no-print">Captura da tela do site Tucum. Em cima, ao centro, consta o nome “TUCUM:
+                  <i>marketplace</i> das artes indígenas”. No centro da imagem há seis vasos de cerâmica em tons marrons
+                  com grafismos indígenas. À esquerda consta o texto “indígena feminina ancestral arte do Alto do Rio
+                  Negro”.
+                </p>
+              </figcaption>
+            </figure>
+            <div class="caixa1 icone saiba-mais" data-aos="fade-up">
+              <p>Estudante, busque na internet mais informações sobre a Tucum e outras plataformas que divulgam e vendem
+                objetos de arte indígena brasileira.
               </p>
-            </figcaption>
-          </figure>
-          <div class="caixa1 icone saiba-mais" data-aos="fade-up">
-            <p>Estudante, busque na internet mais informações sobre a Tucum e outras plataformas que divulgam e vendem
-              objetos de arte indígena brasileira.
+            </div>
+          </div>
+        </div>
+        <div class="parallax" id="parallax-2"></div>
+        <div class="bloco9">
+          <div class="container">
+            <h3 class="titulo-pg3">Distribuição e consumo nas artes</h3>
+            <p>Vamos pensar sobre a distribuição e o consumo das artes em diferentes setores culturais. Existem meios
+              tradicionais, como teatros e cinemas, onde o consumo ocorre mediante a compra de ingressos, bem como os
+              meios digitais, que ganharam destaque durante a pandemia. Por exemplo, a distribuição de música por meio
+              de álbuns e <i>shows</i>, a indústria audiovisual, como novelas, séries e filmes em diferentes
+              plataformas, a
+              distribuição de livros em formatos físicos e digitais e o mercado de artes visuais em museus, galerias e
+              exposições. Para você, futuro produtor, é importante conhecer tanto os meios de distribuição tradicionais
+              como os digitais, para promover projetos culturais inovadores. <span class="no-print">A seguir, clique ou
+                toque para ver cada um.</span>
+            </p>
+            <div class="accordion painel-gaitinha no-print" id="gaitinha03" aria-hidden="true">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="gaitinha03-h01">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#gaitinha03-c01" aria-expanded="false" aria-controls="gaitinha03-c01">
+                    <img src="../assets/objetos/painel_gaitinha_artes-cenicas.png" alt=""><strong>Distribuição e consumo
+                      das
+                      artes cênicas </strong>
+                  </button>
+                </h2>
+                <div id="gaitinha03-c01" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h01"
+                  data-bs-parent="#gaitinha03">
+                  <div class="accordion-body">
+                    <p>Normalmente, são produções apresentadas em <a href="Javascript:" data-bs-toggle="tooltip"
+                        data-bs-title="Edificações destinadas a práticas culturais">aparelhos culturais</a> com
+                      estruturas específicas (teatros, anfiteatros e espaços estruturados com palco). Seu consumo
+                      acontece mediante compra de ingressos (podem ser lugares marcados ou ordem de chegada), mas, em
+                      alguns casos, os ingressos são disponibilizados gratuitamente. A distribuição pode ser por meio de
+                      apresentações únicas, temporadas (vários dias de apresentação), participação em festivais, mostras
+                      e feiras. Aqui, o público é convidado a ir até o local onde será feita a apresentação, que tem uma
+                      duração média de 1 hora 40 minutos. Durante a pandemia, como já foi visto neste módulo, a
+                      distribuição dessas produções foi realizada por meio de plataformas digitais.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="gaitinha03-h02">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#gaitinha03-c02" aria-expanded="false" aria-controls="gaitinha03-c02">
+                    <img src="../assets/objetos/painel_gaitinha_producao-musical.png" alt=""> <strong>Distribuição e
+                      consumo de
+                      música</strong>
+                  </button>
+                </h2>
+                <div id="gaitinha03-c02" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h02"
+                  data-bs-parent="#gaitinha03">
+                  <div class="accordion-body">
+                    <p>Este meio divide-se em dois tipos: (1) voltado ao álbum, <a href="Javascript:"
+                        data-bs-toggle="tooltip"
+                        data-bs-title="Lançamento de uma música do álbum, geralmente como forma de promoção da produção que virá."><em>single</em></a>,
+                      a música propriamente dita; (2) ocorre em forma de <em>shows</em> e apresentações dos artistas. No
+                      primeiro tipo, a distribuição e o consumo acontecem pela venda de álbuns musicais, apresentados em
+                      meio físico (CD – <em>compact disc</em>, DVD – <em>digital video disc</em>, vinil) ou digital (nas
+                      plataformas Spotify, Apple Store, Google Store, YouTube Music etc.). Já o segundo tipo é consumido
+                      mediante ingressos e pode ser realizado em feiras, festivais, palcos montados, ginásios e, até
+                      mesmo, como no exemplo do BTS, em estádios de futebol. Este segundo tipo foi o mais afetado
+                      durante a pandemia e o setor criou novas formas, como as <em>lives</em> (apresentações
+                      transmitidas em plataformas digitais) e os <em>shows</em> em ambientes virtuais, a exemplo da
+                      apresentação do artista Emicida, primeiro brasileiro a participar da iniciativa, dentro do jogo
+                      digital Fortnite.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="gaitinha03-h03">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#gaitinha03-c03" aria-expanded="false" aria-controls="gaitinha03-c03">
+                    <img src="../assets/objetos/painel_gaitinha_audiovisual.png" alt=""><strong>Distribuição e consumo
+                      audiovisual</strong>
+                  </button>
+                </h2>
+                <div id="gaitinha03-c03" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h03"
+                  data-bs-parent="#gaitinha03">
+                  <div class="accordion-body">
+                    <p>A distribuição e o consumo da indústria audiovisual permeiam entre as novelas e minisséries
+                      assistidas nos canais de televisão da sala de estar (podendo ser canais abertos ou pagos), as
+                      séries em plataformas de <em>streaming</em>, que são assistidas pelo celular, como Netflix e
+                      Amazon Prime, até filmes reproduzidos em cinemas com tela gigante e sonorização específica, que o
+                      espectador assiste sentado em uma poltrona numerada, comendo pipoca. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="gaitinha03-h04">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#gaitinha03-c04" aria-expanded="false" aria-controls="gaitinha03-c04">
+                    <img src="../assets/objetos/painel_gaitinha_literatura.png" alt=""><strong>Distribuição e consumo
+                      literário
+                    </strong>
+                  </button>
+                </h2>
+                <div id="gaitinha03-c04" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h04"
+                  data-bs-parent="#gaitinha03">
+                  <div class="accordion-body">
+                    <p>Neste meio, é possível ver um mercado composto de editoras de livros (privadas, públicas,
+                      comunitárias e independentes), que publicam produções, de bibliotecas, de sebos (espaços de trocas
+                      e vendas de livros usados) e de estandes. As produções podem ser distribuídas em formas físicas
+                      (livros, revistas, jornais, quadrinhos, cordel etc.) ou digitais (<em>e-books</em>, PDFs etc.).
+                      Existem muitas iniciativas de feiras e eventos destinados à venda, trocas, autógrafos e
+                      seminários, como a FLIP (Feira Literária Internacional de Paraty) e a Feira do Livro de Porto
+                      Alegre/RS.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="gaitinha03-h05">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#gaitinha03-c05" aria-expanded="false" aria-controls="gaitinha03-c05">
+                    <img src="../assets/objetos/painel_gaitinha_artes-visuais.png" alt=""> <strong>Distribuição e
+                      consumo artes
+                      visuais</strong>
+                  </button>
+                </h2>
+                <div id="gaitinha03-c05" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h05"
+                  data-bs-parent="#gaitinha03">
+                  <div class="accordion-body">
+                    <p>Normalmente ocorre em exposições, mostras e festivais, nos quais as obras ficam expostas por um
+                      tempo determinado e podem ser transpostas para outra localidade após o término desse tempo.
+                      Geralmente, essas obras são distribuídas e consumidas em museus, galerias de arte e espaços
+                      alternativos. Este mercado também pode estar presente em leilões e eventos de vendas de obras de
+                      arte, assim como feiras comunitárias e exposições ao ar livre (o exemplo mais notório é o <a
+                        href="Javascript:" data-bs-toggle="tooltip"
+                        data-bs-title="Arte urbana na qual se expressa em manifestação artística que intervém em espaços da cidade.">grafite</a>).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sr-only acessivel only-print">
+              <h3><b>Distribuição e consumo das artes cênicas </b></h3>
+              <p>Normalmente, são produções apresentadas em aparelhos culturais com estruturas específicas
+                (teatros,
+                anfiteatros e espaços estruturados com palco). Seu consumo acontece mediante compra de ingressos (podem
+                ser lugares marcados ou ordem de chegada), mas, em alguns casos, os ingressos são disponibilizados
+                gratuitamente. A distribuição pode ser por meio de apresentações únicas, temporadas (vários dias de
+                apresentação), participação em festivais, mostras e feiras. Aqui, o público é convidado a ir até o local
+                onde será feita a apresentação, que tem uma duração média de 1 hora 40 minutos. Durante a pandemia, como
+                já foi visto neste módulo, a distribuição dessas produções foi realizada por meio de plataformas
+                digitais.
+              </p>
+              <p>Aparelhos culturais: Edificações destinadas a práticas culturais</p>
+              <h3><b>Distribuição e consumo de música</b></h3>
+              <p>Este meio divide-se em dois tipos: (1) voltado ao álbum, <i>single</i>, a música propriamente dita; (2)
+                ocorre em
+                forma de <i>shows</i> e apresentações dos artistas. No primeiro tipo, a distribuição e o consumo
+                acontecem pela
+                venda de álbuns musicais, apresentados em meio físico (CD – <i>compact disc</i>, DVD – <i>digital video
+                  disc</i>, vinil)
+                ou digital (nas plataformas Spotify, Apple Store, Google Store, YouTube Music etc.). Já o segundo tipo é
+                consumido mediante ingressos e pode ser realizado em feiras, festivais, palcos montados, ginásios e, até
+                mesmo, como no exemplo do BTS, em estádios de futebol. Este segundo tipo foi o mais afetado durante a
+                pandemia e o setor criou novas formas, como as <i>lives</i> (apresentações transmitidas em plataformas
+                digitais)
+                e os <i>shows</i> em ambientes virtuais, a exemplo da apresentação do artista Emicida, primeiro
+                brasileiro a
+                participar da iniciativa, dentro do jogo digital Fortnite.</p>
+              <p>Single: Lançamento de uma música do álbum, geralmente como forma de promoção da produção que
+                virá.</p>
+              <h3><b>Distribuição e consumo audiovisual</b></h3>
+              <p>A distribuição e o consumo da indústria audiovisual permeiam entre as novelas e minisséries assistidas
+                nos canais de televisão da sala de estar (podendo ser canais abertos ou pagos), as séries em plataformas
+                de <i>streaming</i>, que são assistidas pelo celular, como Netflix e Amazon Prime, até filmes
+                reproduzidos em
+                cinemas com tela gigante e sonorização específica, que o espectador assiste sentado em uma poltrona
+                numerada, comendo pipoca. </p>
+              <h3><b>Distribuição e consumo literário </b></h3>
+              <p> Neste meio, é possível ver um mercado composto de editoras de livros (privadas, públicas, comunitárias
+                e
+                independentes), que publicam produções, de bibliotecas, de sebos (espaços de trocas e vendas de livros
+                usados) e de estandes. As produções podem ser distribuídas em formas físicas (livros, revistas, jornais,
+                quadrinhos, cordel etc.) ou digitais (e-books, PDFs etc.). Existem muitas iniciativas de feiras e
+                eventos
+                destinados à venda, trocas, autógrafos e seminários, como a FLIP (Feira Literária Internacional de
+                Paraty)
+                e a Feira do Livro de Porto Alegre/RS.</p>
+              <h3><b>Distribuição e consumo artes visuais</b></h3>
+              <p>Normalmente ocorre em exposições, mostras e festivais, nos quais as obras ficam expostas por um tempo
+                determinado e podem ser transpostas para outra localidade após o término desse tempo. Geralmente, essas
+                obras são distribuídas e consumidas em museus, galerias de arte e espaços alternativos. Este mercado
+                também pode estar presente em leilões e eventos de vendas de obras de arte, assim como feiras
+                comunitárias e exposições ao ar livre (o exemplo mais notório é o grafite).</p>
+              <p>Grafite: Arte urbana na qual se expressa em manifestação artística que intervém em espaços da
+                cidade.</p>
+            </div>
+            <p>Esses foram alguns meios mais comuns de consumo e distribuição, porém é preciso perceber que existe uma
+              infinidade de possibilidades e agentes culturais que movimentam a cultura, podendo encontrar meios
+              híbridos. Também é necessário resgatar os módulos passados, pois, quando se pensa em economia criativa e
+              fomento à cultura, depara-se tanto com iniciativas inovadoras, como o <i>marketplace</i> Tucum, quanto com
+              possibilidades mais voltadas a demandas específicas de editais públicos, como o <a href="Javascript:"
+                data-bs-toggle="tooltip"
+                data-bs-title="Documento no qual são detalhados em tabelas onde, quantos e quais meios de distribuição você operará."
+                data-bs-original-title="" title="">plano de distribuição
+                local/regional.</a></p>
+            <p class="only-print">
+              Plano de distribuição local/regional: Documento no qual são detalhados em tabelas onde, quantos e quais
+              meios de distribuição
+              você operará.
             </p>
           </div>
         </div>
-      </div>
-      <div class="bloco9">
-        <div class="container">
-          <h3>Distribuição e consumo nas artes</h3>
-          <p>Vamos pensar sobre a distribuição e o consumo das artes em diferentes setores culturais. Existem meios
-            tradicionais, como teatros e cinemas, onde o consumo ocorre mediante a compra de ingressos, bem como os
-            meios digitais, que ganharam destaque durante a pandemia. Por exemplo, a distribuição de música por meio
-            de álbuns e <i>shows</i>, a indústria audiovisual, como novelas, séries e filmes em diferentes
-            plataformas, a
-            distribuição de livros em formatos físicos e digitais e o mercado de artes visuais em museus, galerias e
-            exposições. Para você, futuro produtor, é importante conhecer tanto os meios de distribuição tradicionais
-            como os digitais, para promover projetos culturais inovadores. <span class="no-print">A seguir, clique ou
-              toque para ver cada um.</span>
-          </p>
-          <div class="accordion painel-gaitinha no-print" id="gaitinha03" aria-hidden="true">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="gaitinha03-h01">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#gaitinha03-c01" aria-expanded="false" aria-controls="gaitinha03-c01">
-                  <img src="../assets/objetos/painel_gaitinha_artes-cenicas.png" alt=""><strong>Distribuição e consumo
-                    das
-                    artes cênicas </strong>
-                </button>
-              </h2>
-              <div id="gaitinha03-c01" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h01"
-                data-bs-parent="#gaitinha03">
-                <div class="accordion-body">
-                  <p>Normalmente, são produções apresentadas em <a href="Javascript:" data-bs-toggle="tooltip"
-                      data-bs-title="Edificações destinadas a práticas culturais">aparelhos culturais</a> com
-                    estruturas específicas (teatros, anfiteatros e espaços estruturados com palco). Seu consumo
-                    acontece mediante compra de ingressos (podem ser lugares marcados ou ordem de chegada), mas, em
-                    alguns casos, os ingressos são disponibilizados gratuitamente. A distribuição pode ser por meio de
-                    apresentações únicas, temporadas (vários dias de apresentação), participação em festivais, mostras
-                    e feiras. Aqui, o público é convidado a ir até o local onde será feita a apresentação, que tem uma
-                    duração média de 1 hora 40 minutos. Durante a pandemia, como já foi visto neste módulo, a
-                    distribuição dessas produções foi realizada por meio de plataformas digitais.</p>
-                </div>
+        <div class="bloco10">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 mt-0">
+                <img src="../assets/objetos/img_paragrafo.png" class="img-fluid d-block mx-auto no-print">
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <p class="mt-5">Percebe-se, portanto, que importantes ponderações podem surgir quando se pensa sobre a
+                  distribuição e
+                  o
+                  consumo de cultura no Brasil. Celso Furtado (1999), em meados dos anos 1990, já fazia uma crítica,
+                  afirmando
+                  que as pessoas se tornaram consumidoras de produtos culturais (bens e serviços) importados. Pode-se
+                  até
+                  pensar que esse diagnóstico é datado, porém segue vigente, mesmo com as novas organizações e os novos
+                  formatos de produção cultural pelo mundo (digitais inclusive), como a formação de conjuntos musicais
+                  coreanos ou a insurgência da música latina em solo norte-americano, ou até mesmo a iniciativa de
+                  marketplaces. Furtado (1999, p. 153) também declara:</p>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="gaitinha03-h02">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#gaitinha03-c02" aria-expanded="false" aria-controls="gaitinha03-c02">
-                  <img src="../assets/objetos/painel_gaitinha_producao-musical.png" alt=""> <strong>Distribuição e
-                    consumo de
-                    música</strong>
-                </button>
-              </h2>
-              <div id="gaitinha03-c02" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h02"
-                data-bs-parent="#gaitinha03">
-                <div class="accordion-body">
-                  <p>Este meio divide-se em dois tipos: (1) voltado ao álbum, <a href="Javascript:"
-                      data-bs-toggle="tooltip"
-                      data-bs-title="Lançamento de uma música do álbum, geralmente como forma de promoção da produção que virá."><em>single</em></a>,
-                    a música propriamente dita; (2) ocorre em forma de <em>shows</em> e apresentações dos artistas. No
-                    primeiro tipo, a distribuição e o consumo acontecem pela venda de álbuns musicais, apresentados em
-                    meio físico (CD – <em>compact disc</em>, DVD – <em>digital video disc</em>, vinil) ou digital (nas
-                    plataformas Spotify, Apple Store, Google Store, YouTube Music etc.). Já o segundo tipo é consumido
-                    mediante ingressos e pode ser realizado em feiras, festivais, palcos montados, ginásios e, até
-                    mesmo, como no exemplo do BTS, em estádios de futebol. Este segundo tipo foi o mais afetado
-                    durante a pandemia e o setor criou novas formas, como as <em>lives</em> (apresentações
-                    transmitidas em plataformas digitais) e os <em>shows</em> em ambientes virtuais, a exemplo da
-                    apresentação do artista Emicida, primeiro brasileiro a participar da iniciativa, dentro do jogo
-                    digital Fortnite.</p>
-                </div>
-              </div>
+            <div class="caixa1 citacao" data-aos="fade-up">
+              <p>Todos os povos lutam para ter acesso ao patrimônio cultural comum da humanidade, o qual se enriquece
+                permanentemente. Resta saber quais serão os povos que continuarão a contribuir para esse enriquecimento
+                e quais aqueles que serão relegados ao papel passivo de simples consumidores de bens culturais
+                adquiridos nos mercados. Ter ou não acesso à criatividade, essa é a questão.
+              </p>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="gaitinha03-h03">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#gaitinha03-c03" aria-expanded="false" aria-controls="gaitinha03-c03">
-                  <img src="../assets/objetos/painel_gaitinha_audiovisual.png" alt=""><strong>Distribuição e consumo
-                    audiovisual</strong>
-                </button>
-              </h2>
-              <div id="gaitinha03-c03" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h03"
-                data-bs-parent="#gaitinha03">
-                <div class="accordion-body">
-                  <p>A distribuição e o consumo da indústria audiovisual permeiam entre as novelas e minisséries
-                    assistidas nos canais de televisão da sala de estar (podendo ser canais abertos ou pagos), as
-                    séries em plataformas de <em>streaming</em>, que são assistidas pelo celular, como Netflix e
-                    Amazon Prime, até filmes reproduzidos em cinemas com tela gigante e sonorização específica, que o
-                    espectador assiste sentado em uma poltrona numerada, comendo pipoca. </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="gaitinha03-h04">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#gaitinha03-c04" aria-expanded="false" aria-controls="gaitinha03-c04">
-                  <img src="../assets/objetos/painel_gaitinha_literatura.png" alt=""><strong>Distribuição e consumo
-                    literário
-                  </strong>
-                </button>
-              </h2>
-              <div id="gaitinha03-c04" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h04"
-                data-bs-parent="#gaitinha03">
-                <div class="accordion-body">
-                  <p>Neste meio, é possível ver um mercado composto de editoras de livros (privadas, públicas,
-                    comunitárias e independentes), que publicam produções, de bibliotecas, de sebos (espaços de trocas
-                    e vendas de livros usados) e de estandes. As produções podem ser distribuídas em formas físicas
-                    (livros, revistas, jornais, quadrinhos, cordel etc.) ou digitais (<em>e-books</em>, PDFs etc.).
-                    Existem muitas iniciativas de feiras e eventos destinados à venda, trocas, autógrafos e
-                    seminários, como a FLIP (Feira Literária Internacional de Paraty) e a Feira do Livro de Porto
-                    Alegre/RS.</p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="gaitinha03-h05">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#gaitinha03-c05" aria-expanded="false" aria-controls="gaitinha03-c05">
-                  <img src="../assets/objetos/painel_gaitinha_artes-visuais.png" alt=""> <strong>Distribuição e
-                    consumo artes
-                    visuais</strong>
-                </button>
-              </h2>
-              <div id="gaitinha03-c05" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h05"
-                data-bs-parent="#gaitinha03">
-                <div class="accordion-body">
-                  <p>Normalmente ocorre em exposições, mostras e festivais, nos quais as obras ficam expostas por um
-                    tempo determinado e podem ser transpostas para outra localidade após o término desse tempo.
-                    Geralmente, essas obras são distribuídas e consumidas em museus, galerias de arte e espaços
-                    alternativos. Este mercado também pode estar presente em leilões e eventos de vendas de obras de
-                    arte, assim como feiras comunitárias e exposições ao ar livre (o exemplo mais notório é o <a
-                      href="Javascript:" data-bs-toggle="tooltip"
-                      data-bs-title="Arte urbana na qual se expressa em manifestação artística que intervém em espaços da cidade.">grafite</a>).
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="sr-only acessivel only-print">
-            <h3><b>Distribuição e consumo das artes cênicas </b></h3>
-            <p>Normalmente, são produções apresentadas em aparelhos culturais com estruturas específicas
-              (teatros,
-              anfiteatros e espaços estruturados com palco). Seu consumo acontece mediante compra de ingressos (podem
-              ser lugares marcados ou ordem de chegada), mas, em alguns casos, os ingressos são disponibilizados
-              gratuitamente. A distribuição pode ser por meio de apresentações únicas, temporadas (vários dias de
-              apresentação), participação em festivais, mostras e feiras. Aqui, o público é convidado a ir até o local
-              onde será feita a apresentação, que tem uma duração média de 1 hora 40 minutos. Durante a pandemia, como
-              já foi visto neste módulo, a distribuição dessas produções foi realizada por meio de plataformas
-              digitais.
+            <p>Nota-se, portanto, um retrato das relações de distribuição e consumo cultural no mundo, que consiste na
+              concentração da produção e na dispersão do consumo que parte de grandes centros ou políticas culturais.
+              Esta articulação <a href="Javascript:" data-bs-toggle="tooltip"
+                data-bs-title="Refere-se a conversa, a diálogo. Diferente de dialética, que seria o embate direto de ideias. Nesse caso, um para muitos: alguém fala e muitos escutam, ou alguém produz e muitos consomem (centralização). "
+                data-bs-original-title="" title="">dialógica</a> de um para muitos pouco combina com a lógica de
+              promoção e fomento à
+              diversidade cultural e com o entendimento de que a cultura do país é insumo para o desenvolvimento
+              econômico e social. Talvez o que mude seja a presença das <a href="Javascript:" data-bs-toggle="tooltip"
+                data-bs-title="Nome dado comumente às cinco empresas que dominam o mercado de dados digitais: Alphabet (Google), Microsoft, Meta (Facebook), Amazon e Apple."
+                data-bs-original-title="" title=""><i>big techs</i></a>, os serviços de
+              <i>streaming</i> e as redes
+              sociais no lugar antes ocupado pelos meios tradicionais.
             </p>
-            <p>Aparelhos culturais: Edificações destinadas a práticas culturais</p>
-            <h3><b>Distribuição e consumo de música</b></h3>
-            <p>Este meio divide-se em dois tipos: (1) voltado ao álbum, <i>single</i>, a música propriamente dita; (2)
-              ocorre em
-              forma de <i>shows</i> e apresentações dos artistas. No primeiro tipo, a distribuição e o consumo
-              acontecem pela
-              venda de álbuns musicais, apresentados em meio físico (CD – <i>compact disc</i>, DVD – <i>digital video
-                disc</i>, vinil)
-              ou digital (nas plataformas Spotify, Apple Store, Google Store, YouTube Music etc.). Já o segundo tipo é
-              consumido mediante ingressos e pode ser realizado em feiras, festivais, palcos montados, ginásios e, até
-              mesmo, como no exemplo do BTS, em estádios de futebol. Este segundo tipo foi o mais afetado durante a
-              pandemia e o setor criou novas formas, como as <i>lives</i> (apresentações transmitidas em plataformas
-              digitais)
-              e os <i>shows</i> em ambientes virtuais, a exemplo da apresentação do artista Emicida, primeiro
-              brasileiro a
-              participar da iniciativa, dentro do jogo digital Fortnite.</p>
-            <p>Single: Lançamento de uma música do álbum, geralmente como forma de promoção da produção que
-              virá.</p>
-            <h3><b>Distribuição e consumo audiovisual</b></h3>
-            <p>A distribuição e o consumo da indústria audiovisual permeiam entre as novelas e minisséries assistidas
-              nos canais de televisão da sala de estar (podendo ser canais abertos ou pagos), as séries em plataformas
-              de <i>streaming</i>, que são assistidas pelo celular, como Netflix e Amazon Prime, até filmes
-              reproduzidos em
-              cinemas com tela gigante e sonorização específica, que o espectador assiste sentado em uma poltrona
-              numerada, comendo pipoca. </p>
-            <h3><b>Distribuição e consumo literário </b></h3>
-            <p> Neste meio, é possível ver um mercado composto de editoras de livros (privadas, públicas, comunitárias
-              e
-              independentes), que publicam produções, de bibliotecas, de sebos (espaços de trocas e vendas de livros
-              usados) e de estandes. As produções podem ser distribuídas em formas físicas (livros, revistas, jornais,
-              quadrinhos, cordel etc.) ou digitais (e-books, PDFs etc.). Existem muitas iniciativas de feiras e
-              eventos
-              destinados à venda, trocas, autógrafos e seminários, como a FLIP (Feira Literária Internacional de
-              Paraty)
-              e a Feira do Livro de Porto Alegre/RS.</p>
-            <h3><b>Distribuição e consumo artes visuais</b></h3>
-            <p>Normalmente ocorre em exposições, mostras e festivais, nos quais as obras ficam expostas por um tempo
-              determinado e podem ser transpostas para outra localidade após o término desse tempo. Geralmente, essas
-              obras são distribuídas e consumidas em museus, galerias de arte e espaços alternativos. Este mercado
-              também pode estar presente em leilões e eventos de vendas de obras de arte, assim como feiras
-              comunitárias e exposições ao ar livre (o exemplo mais notório é o grafite).</p>
-            <p>Grafite: Arte urbana na qual se expressa em manifestação artística que intervém em espaços da
-              cidade.</p>
-          </div>
-          <p>Esses foram alguns meios mais comuns de consumo e distribuição, porém é preciso perceber que existe uma
-            infinidade de possibilidades e agentes culturais que movimentam a cultura, podendo encontrar meios
-            híbridos. Também é necessário resgatar os módulos passados, pois, quando se pensa em economia criativa e
-            fomento à cultura, depara-se tanto com iniciativas inovadoras, como o <i>marketplace</i> Tucum, quanto com
-            possibilidades mais voltadas a demandas específicas de editais públicos, como o <a href="Javascript:"
-              data-bs-toggle="tooltip"
-              data-bs-title="Documento no qual são detalhados em tabelas onde, quantos e quais meios de distribuição você operará."
-              data-bs-original-title="" title="">plano de distribuição
-              local/regional.</a></p>
-          <p class="only-print">
-            Plano de distribuição local/regional: Documento no qual são detalhados em tabelas onde, quantos e quais
-            meios de distribuição
-            você operará.
-          </p>
-        </div>
-      </div>
-      <div class="bloco10">
-        <div class="container">
-          <p>Percebe-se, portanto, que importantes ponderações podem surgir quando se pensa sobre a distribuição e o
-            consumo de cultura no Brasil. Celso Furtado (1999), em meados dos anos 1990, já fazia uma crítica,
-            afirmando
-            que as pessoas se tornaram consumidoras de produtos culturais (bens e serviços) importados. Pode-se até
-            pensar que esse diagnóstico é datado, porém segue vigente, mesmo com as novas organizações e os novos
-            formatos de produção cultural pelo mundo (digitais inclusive), como a formação de conjuntos musicais
-            coreanos ou a insurgência da música latina em solo norte-americano, ou até mesmo a iniciativa de
-            marketplaces. Furtado (1999, p. 153) também declara:</p>
-          <div class="caixa1 citacao" data-aos="fade-up">
-            <p>Todos os povos lutam para ter acesso ao patrimônio cultural comum da humanidade, o qual se enriquece
-              permanentemente. Resta saber quais serão os povos que continuarão a contribuir para esse enriquecimento
-              e quais aqueles que serão relegados ao papel passivo de simples consumidores de bens culturais
-              adquiridos nos mercados. Ter ou não acesso à criatividade, essa é a questão.
+            <p class="only-print">
+              Dialógica: Refere-se a conversa, a diálogo. Diferente de dialética,
+              que seria o embate direto de ideias. Nesse caso, um para muitos: alguém fala e muitos escutam, ou alguém
+              produz e muitos consomem (centralização).
+              <br> <br>
+              Big techs: Nome dado comumente às cinco empresas que dominam o mercado
+              de dados digitais: Alphabet (Google), Microsoft, Meta (Facebook), Amazon e Apple.
             </p>
           </div>
-          <p>Nota-se, portanto, um retrato das relações de distribuição e consumo cultural no mundo, que consiste na
-            concentração da produção e na dispersão do consumo que parte de grandes centros ou políticas culturais.
-            Esta articulação <a href="Javascript:" data-bs-toggle="tooltip"
-              data-bs-title="Refere-se a conversa, a diálogo. Diferente de dialética, que seria o embate direto de ideias. Nesse caso, um para muitos: alguém fala e muitos escutam, ou alguém produz e muitos consomem (centralização). "
-              data-bs-original-title="" title="">dialógica</a> de um para muitos pouco combina com a lógica de
-            promoção e fomento à
-            diversidade cultural e com o entendimento de que a cultura do país é insumo para o desenvolvimento
-            econômico e social. Talvez o que mude seja a presença das <a href="Javascript:" data-bs-toggle="tooltip"
-              data-bs-title="Nome dado comumente às cinco empresas que dominam o mercado de dados digitais: Alphabet (Google), Microsoft, Meta (Facebook), Amazon e Apple."
-              data-bs-original-title="" title=""><i>big techs</i></a>, os serviços de
-            <i>streaming</i> e as redes
-            sociais no lugar antes ocupado pelos meios tradicionais.
-          </p>
-          <p class="only-print">
-            Dialógica: Refere-se a conversa, a diálogo. Diferente de dialética,
-            que seria o embate direto de ideias. Nesse caso, um para muitos: alguém fala e muitos escutam, ou alguém
-            produz e muitos consomem (centralização).
-            <br> <br>
-            Big techs: Nome dado comumente às cinco empresas que dominam o mercado
-            de dados digitais: Alphabet (Google), Microsoft, Meta (Facebook), Amazon e Apple.
-          </p>
         </div>
-      </div>
-      <div class="bloco11">
-        <div class="container">
-          <p>Para melhor compreender este contexto, é importante retomar os módulos anteriores, quando se estudou
-            sobre
-            as políticas públicas culturais, a economia criativa e a diversidade cultural. Nesse sentido, a
-            distribuição
-            e o consumo da cultura são possibilidades indutoras do desenvolvimento local, promovendo e fomentando
-            sistemas e arranjos produtivos locais, renda e criando frentes de trabalho, tendo em vista a
-            sustentabilidade da oferta de bens e serviços e a construção de uma conexão profunda (e territorializada)
-            entre a sua produção e o consumo cultural. Portanto, é importante você ter conhecido os meios de
-            distribuição e consumo (os digitais e os tradicionais) para refletir e ter ideias inovadoras de como
-            produzir seus projetos com possibilidades infinitas, podendo misturar e criar novas frentes que promovam a
-            diversidade cultural local.</p>
-          <p>A partir dos próximos módulos, no próximo semestre, você mergulhará mais fundo nas especificidades de
-            como
-            realizar uma produção cultural na prática, como fazer um orçamento e uma planilha de custo, como defender
-            na
-            escrita um projeto, com justificativa e argumentos, e também conhecerá mais sobre as ferramentas que viu
-            até
-            aqui.</p>
+        <div class="bloco11">
+          <div class="container">
+            <p>Para melhor compreender este contexto, é importante retomar os módulos anteriores, quando se estudou
+              sobre
+              as políticas públicas culturais, a economia criativa e a diversidade cultural. Nesse sentido, a
+              distribuição
+              e o consumo da cultura são possibilidades indutoras do desenvolvimento local, promovendo e fomentando
+              sistemas e arranjos produtivos locais, renda e criando frentes de trabalho, tendo em vista a
+              sustentabilidade da oferta de bens e serviços e a construção de uma conexão profunda (e territorializada)
+              entre a sua produção e o consumo cultural. Portanto, é importante você ter conhecido os meios de
+              distribuição e consumo (os digitais e os tradicionais) para refletir e ter ideias inovadoras de como
+              produzir seus projetos com possibilidades infinitas, podendo misturar e criar novas frentes que promovam a
+              diversidade cultural local.</p>
+            <p>A partir dos próximos módulos, no próximo semestre, você mergulhará mais fundo nas especificidades de
+              como
+              realizar uma produção cultural na prática, como fazer um orçamento e uma planilha de custo, como defender
+              na
+              escrita um projeto, com justificativa e argumentos, e também conhecerá mais sobre as ferramentas que viu
+              até
+              aqui.</p>
+          </div>
         </div>
-      </div>
       </div>
 
       <div class="pagina pg4">
-        <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-          <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-            imprimir</button>
-        </div>
         <div class="bloco12">
           <div class="container">
-            <h3>O que faz o produtor cultural</h3>
+            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
+              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
+                imprimir</button>
+            </div>
+            <img src="../assets/objetos/parallax_dir_4.png" class="no-print rellax  rellax6 d-none d-xl-block"
+              data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
+
+            <img src="../assets/objetos/parallax_esq_4.png" class="no-print rellax  rellax7 d-none d-xl-block"
+              data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
+
+            <h3 class="titulo-pg4">O que faz o produtor cultural</h3>
             <p>A produção cultural é uma atividade que, como visto, aplica-se a diferentes manifestações culturais.
               Considerando o tipo de projeto, o produtor cultural desenvolverá diferentes atividades no curso da
               realização do projeto.</p>
@@ -1549,7 +1604,6 @@
             </div>
           </div>
         </div>
-
         <div class="bloco13">
           <div class="container">
             <p> Dependendo de sua forma de atuação e das etapas de realização do projeto cultural em que estiver
@@ -1558,36 +1612,26 @@
               atividades clicando ou tocando nos botões.Estes exemplos não têm a intenção de ser completos, mas de
               mostrar
               a você como funciona o trabalho de produção cultural na prática.</p>
-
-            <div class="painel-modais-100 text-center my-4 no-print" data-aos="fade-up" aria-hidden="true">
-              <button data-bs-toggle="modal" data-bs-target="#painel-modal100-1" data-aos="flip-left"
-                data-aos-delay="200"><img src="../assets/objetos/modal_bt1.png" alt=""><span class="sr-only">Escrita de
-                  projetos culturais</span></button>
-              <button data-bs-toggle="modal" data-bs-target="#painel-modal100-2" data-aos="flip-left"
-                data-aos-delay="200"><img src="../assets/objetos/modal_bt2.png" alt=""><span class="sr-only">Captação de
-                  recurso</span></button>
-              <button data-bs-toggle="modal" data-bs-target="#painel-modal100-3" data-aos="flip-left"
-                data-aos-delay="200"><img src="../assets/objetos/modal_bt3.png" alt=""><span class="sr-only">Defesa oral
-                  de
-                  projeto ou <em>pitching</em></span></button>
-              <button data-bs-toggle="modal" data-bs-target="#painel-modal100-4" data-aos="flip-left"
-                data-aos-delay="200"><img src="../assets/objetos/modal_bt4.png" alt=""><span class="sr-only">Venda
-                  direta</span></button>
-              <button data-bs-toggle="modal" data-bs-target="#painel-modal100-5" data-aos="flip-left"
-                data-aos-delay="200"><img src="../assets/objetos/modal_bt5.png" alt=""><span class="sr-only">Produção
-                  digital</span></button>
+            <div class="painel-producao text-center my-4 no-print" data-aos="fade-up" aria-hidden="true">
+              <button class="bt-producao-1" data-bs-toggle="modal" data-bs-target="#painel-modal100-1"></button>
+              <button class="bt-producao-2" data-bs-toggle="modal" data-bs-target="#painel-modal100-2"></button>
+              <button class="bt-producao-3" data-bs-toggle="modal" data-bs-target="#painel-modal100-3"></button>
+              <button class="bt-producao-4" data-bs-toggle="modal" data-bs-target="#painel-modal100-4"></button>
+              <button class="bt-producao-5" data-bs-toggle="modal" data-bs-target="#painel-modal100-5"></button>
             </div>
-            <div class="modal fade modal-sesc" id="painel-modal100-1" tabindex="-1" role="dialog"
-              aria-labelledby="painel-modal100-1-title" aria-hidden="true">
+            <div class="modal fade" id="painel-modal100-1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
               <div class="modal-dialog modal-fullscreen" role="document">
                 <div class="modal-content no-print">
-                  <div class="modal-header container">
-                    <h5 class="modal-title" id="painel-modal100-1-title">Escrita de projetos
-                      culturais</h5>
+                  <div class="modal-header">
+                    <h5 class="modal-title"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <div class="container">
+                      <div class="titulo-modal">
+                        <h5>Escrita de Projetos Culturais</h5>
+                      </div>
                       <p>Escrever <a href="Javascript:" data-bs-toggle="tooltip"
                           data-bs-title="Projetos culturais “são iniciativas voltadas para a ação sobre objetos reais e ideais que expressam valores espirituais – sentimentos e conhecimentos – significativos para determinado grupo social” (Thiry-Cherques, 2008, p. 28).">projetos</a>
                         é uma atividade transversal à produção cultural. A escrita do projeto é
@@ -1608,22 +1652,25 @@
                         casos, são aceitos projetos em vídeo.</p>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">Fechar</button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="modal fade modal-sesc" id="painel-modal100-2" tabindex="-1" role="dialog"
-              aria-labelledby="painel-modal100-2-title" aria-hidden="true">
+            <div class="modal fade" id="painel-modal100-2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
               <div class="modal-dialog modal-fullscreen" role="document">
                 <div class="modal-content no-print">
-                  <div class="modal-header container">
-                    <h5 class="modal-title" id="painel-modal100-2-title">Captação de recursos</h5>
+                  <div class="modal-header">
+                    <h5 class="modal-title"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <div class="container">
+                      <div class="titulo-modal">
+                        <h5>Captação de Recursos</h5>
+                      </div>
                       <p>A atividade de produção cultural está, em grande medida, relacionada à
                         gestão financeira de um projeto, desde o planejamento do orçamento até a
                         aplicação dos recursos e a prestação de contas. Um elo importante dessa
@@ -1689,7 +1736,6 @@
                           </div>
                         </div>
                       </div>
-
                       <p>Obviamente, essas não são as únicas maneiras de se obter recursos para
                         realização de um projeto cultural. É possível fazer uma rifa, obter
                         doações, investir recursos próprios, entre tantas outras maneiras.</p>
@@ -1702,24 +1748,25 @@
                         dessas empresas.</p>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">Fechar</button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="modal fade modal-sesc" id="painel-modal100-3" tabindex="-1" role="dialog"
-              aria-labelledby="painel-modal100-3-title" aria-hidden="true">
+            <div class="modal fade" id="painel-modal100-3" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
               <div class="modal-dialog modal-fullscreen" role="document">
                 <div class="modal-content no-print">
-                  <div class="modal-header container">
-                    <h5 class="modal-title" id="painel-modal100-3-title">Defesa oral de projeto ou
-                      <em>pitching</em>
-                    </h5>
+                  <div class="modal-header">
+                    <h5 class="modal-title"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <div class="container">
+                      <div class="titulo-modal">
+                        <h5>Defesa Oral de Projeto ou <i>Pitching</i></h5>
+                      </div>
                       <p>Em muitas seleções de projetos, há momentos em que é necessário fazer a
                         defesa oral do projeto cultural, o que consiste em realizar uma breve
                         apresentação do projeto e estar preparado para responder a perguntas que
@@ -1727,7 +1774,7 @@
                       <p>Para realização da defesa, é necessário conhecer profundamente o projeto
                         e preparar-se para explicá-lo de maneira clara, concisa e coerente.</p>
                       <figure>
-                        <img src="../assets/objetos/" class="img-fluid d-block mx-auto">
+                        <img src="../assets/objetos/figura_13.png" class="img-fluid d-block mx-auto">
                         <figcaption>
                           Figura 13 – Arguição oral para seleção de projetos no Edital Prêmio Manaus de Conexões
                           Culturais 2019,
@@ -1754,22 +1801,25 @@
                         fundamentar ainda mais o produto, e não alterá-lo” (G1, 2019).</p>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">Fechar</button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="modal fade modal-sesc" id="painel-modal100-4" tabindex="-1" role="dialog"
-              aria-labelledby="painel-modal100-4-title" aria-hidden="true">
+            <div class="modal fade" id="painel-modal100-4" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
               <div class="modal-dialog modal-fullscreen" role="document">
                 <div class="modal-content no-print">
-                  <div class="modal-header container">
-                    <h5 class="modal-title" id="painel-modal100-4-title">Venda direta</h5>
+                  <div class="modal-header">
+                    <h5 class="modal-title"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <div class="container">
+                      <div class="titulo-modal">
+                        <h5>Venda Direta</h5>
+                      </div>
                       <p>Quando se trabalha com projetos que envolvem produtos culturais, como as
                         artes cênicas, por exemplo, com a produção de espetáculos de dança,
                         circo e teatro, é necessário descobrir caminhos para que esses produtos
@@ -1784,7 +1834,7 @@
                         necessária na defesa oral: apresentar o projeto cultural de forma clara,
                         concisa e coerente.</p>
                       <figure>
-                        <img src="../assets/objetos/" class="img-fluid d-block mx-auto">
+                        <img src="../assets/objetos/figura_14.png" class="img-fluid d-block mx-auto">
                         <figcaption>
                           Figura 14 – Rodada de venda de espetáculos de artes cênicas em <i>workshop</i> ministrado pela
                           produtora cultural croata Iva Horvat, durante a Mostra Internacional de Artes Cênicas de São
@@ -1812,32 +1862,32 @@
                         pela Mostra Internacional de Artes Cênicas de São Paulo.</p>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">Fechar</button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="modal fade modal-sesc" id="painel-modal100-5" tabindex="-1" role="dialog"
-              aria-labelledby="painel-modal100-5-title" aria-hidden="true">
+            <div class="modal fade" id="painel-modal100-5" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
               <div class="modal-dialog modal-fullscreen" role="document">
                 <div class="modal-content no-print">
-                  <div class="modal-header container">
-                    <h5 class="modal-title" id="painel-modal100-5-title">Produção digital
-                      (plataformas digitais, <em>streaming</em>, redes sociais, sites e afins)
-                    </h5>
+                  <div class="modal-header">
+                    <h5 class="modal-title"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <div class="container">
+                      <div class="titulo-modal">
+                        <h5>Produção Digital</h5>
+                      </div>
                       <p>As redes sociais e plataformas digitais são importantes espaços para a
                         divulgação de bens e serviços culturais, mas também podem ser espaços de
                         atuação direta de produtores culturais na produção de conteúdos
                         digitais.</p>
                       <div class="row">
                         <div class="col-lg-4 d-lg-flex justify-content-center flex-column">
-                          <img src="../assets/objetos/imagem_ilustrativa_2.png" class="img-fluid d-block mx-auto my-3"
-                            alt="">
+                          <img src="../assets/objetos/img_celular.png" class="img-fluid d-block mx-auto my-3" alt="">
                         </div>
                         <div class="col-lg-8">
                           <p>Já faz algum tempo que a Internet e os diversos dispositivos
@@ -1862,8 +1912,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="modal-footer justify-content-center">
-                    <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                  <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn-sesc-modal" data-bs-dismiss="modal">Fechar</button>
                   </div>
                 </div>
               </div>
@@ -1923,7 +1973,7 @@
               <p>Para realização da defesa, é necessário conhecer profundamente o projeto e preparar-se para explicá-lo
                 de maneira clara, concisa e coerente. </p>
               <figure>
-                <img src="../assets/objetos/" class="img-fluid d-block mx-auto">
+                <img src="../assets/objetos/figura_13.png" class="img-fluid d-block mx-auto">
                 <figcaption>
                   Figura 13 – Arguição oral para seleção de projetos no Edital Prêmio Manaus de Conexões Culturais 2019,
                   da Prefeitura de Manaus
@@ -1955,7 +2005,7 @@
                 semelhante à que é necessária na defesa oral: apresentar o projeto cultural de forma clara, concisa e
                 coerente. </p>
               <figure>
-                <img src="../assets/objetos/" class="img-fluid d-block mx-auto">
+                <img src="../assets/objetos/figura_14.png" class="img-fluid d-block mx-auto">
                 <figcaption>
                   Figura 14 – Rodada de venda de espetáculos de artes cênicas em <i>workshop</i> ministrado pela
                   produtora cultural croata Iva Horvat, durante a Mostra Internacional de Artes Cênicas de São Paulo
@@ -1995,10 +2045,10 @@
             </div>
           </div>
         </div>
-
+        <div class="parallax" id="parallax-3"></div>
         <div class="bloco14">
           <div class="container">
-            <h3>De onde vêm as ideias </h3>
+            <h3 class="titulo2-pg4">De onde vêm as ideias </h3>
             <p>Estudante, você já parou para pensar sobre como suas músicas preferidas, filmes emocionantes ou
               espetáculos de dança foram criados? Pois antes de iniciar qualquer produção cultural, vem a <b>ideia</b>.
             </p>
@@ -2047,10 +2097,9 @@
             </div>
           </div>
         </div>
-
         <div class="bloco15">
           <div class="container">
-            <h3>Recapitulando</h3>
+            <h3 class="titulo-pg4">Recapitulando</h3>
             <p>Que tal recapitular o que você estudou neste módulo? <span class="no-print">Assista ao vídeo a
                 seguir.</span></p>
             <iframe class="img-fluid" src="" frameborder="0"></iframe>
@@ -2112,7 +2161,7 @@
             </div>
           </div>
         </div>
-
+        <div class="parallax" id="parallax-4"></div>
         <div class="bloco16">
           <div class="container">
             <div id="content-game">
@@ -2263,10 +2312,10 @@
                 </div>
               </div>
             </div>
+            <br><br>
             <div class="no-print">
-              <img src="../assets/img/ico_vamospraticar.png" class="img-fluid d-block mx-auto no-print"
-                data-aos="fade-down" data-aos-duration="1000" aria-hidden="true">
-              <p>2. Dependendo de sua forma de atuação e das etapas de realização do projeto cultural em que estiver
+              <p class="paragrafo-pg4">2. Dependendo de sua forma de atuação e das etapas de realização do projeto
+                cultural em que estiver
                 inserido, um certo conjunto de atividades será demandado do produtor cultural. Assinale <b>V</b> para
                 verdadeiro e <b>F</b> para falso nas seguintes atribuições de um produtor cultural. </p>
               <div class="esquemaDaBru">
@@ -2403,19 +2452,25 @@
       </div>
 
       <div class="pagina pg5">
-        <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-          <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-            imprimir</button>
-        </div>
         <div class="bloco17">
           <div class="container">
-            <h3>Qual é o papel do produtor cultural?</h3>
+            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
+              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
+                imprimir</button>
+            </div>
+            <img src="../assets/objetos/parallax_dir_5.png" class="no-print rellax  rellax8 d-none d-xl-block"
+              data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
+
+            <img src="../assets/objetos/parallax_esq_5.png" class="no-print rellax  rellax9 d-none d-xl-block"
+              data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
+
+            <h3 class="titulo-pg5">Qual é o papel do produtor cultural?</h3>
             <p>Você já viu aqueles malabaristas dos circos chineses que equilibram uma série de pratos, os quais giram
               sobre hastes de madeira em diversas partes do corpo ao mesmo tempo? Pois essa parece ser uma boa imagem
               para representar o produtor cultural, um profissional que precisa, o tempo todo, acomodar uma série de
               atividades e demandas diferentes, tal como os malabaristas equilibram seus pratos. </p>
             <figure>
-              <img src="../assets/objetos/" class="img-fluid d-block mx-auto">
+              <img src="../assets/objetos/figura_15.png" class="img-fluid d-block mx-auto">
               <figcaption>
                 Figura 15 – Malabaristas do Circo Imperial da China, em apresentação realizada no Brasil em 2017
                 <br>
@@ -2434,21 +2489,30 @@
               <p>É preciso ficar ligado para desenvolver, viabilizar e realizar seus projetos culturais. </p>
               <p>E é preciso ficar ligado para não se perder no mar. </p>
             </div>
-            <p>Você chegou ao final da primeira parte da sua viagem. É hora de reabastecer, revisar as cordas, as velas
-              e o casco da embarcação para seguir firme até o final de nossa jornada juntos. </p>
-            <p>“Navegar é preciso”, disse Fernando Pessoa (s.d.). </p>
-            <p>Siga navegando.</p>
+            <div class="row">
+              <div class="col-lg-4 col-md-12">
+                <img src="../assets/objetos/img_paragrafo_5.png" class="img-fluid d-block mx-auto no-print">
+              </div>
+              <div class="col-lg-8 col-md-12">
+                <p class="my-5">Você chegou ao final da primeira parte da sua viagem. É hora de reabastecer, revisar as
+                  cordas, as
+                  velas
+                  e o casco da embarcação para seguir firme até o final de nossa jornada juntos. </p>
+                <p class="my-5">“Navegar é preciso”, disse Fernando Pessoa (s.d.). </p>
+                <p class="my-5">Siga navegando.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="pagina referencias">
-        <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-          <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-            imprimir</button>
-        </div>
-        <div class="bloco17">
+      <div class="pagina pg6">
+        <div class="bloco18">
           <div class="container">
+            <div class="col-9 d-flex flex-column justify-content-center align-items-end">
+              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
+                imprimir</button>
+            </div>
             <h3>Referências</h3>
             <p>AILTON Krenak conta a sua trajetória e fala da luta permanente dos povos tradicionais no Brasil. [S.l.],
               30 jul. 2020. 1 vídeo (56 min.). Publicado pelo canal Assembleia de Minas Gerais. Disponível em:
