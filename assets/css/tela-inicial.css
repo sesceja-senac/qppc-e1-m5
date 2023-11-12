@@ -205,7 +205,7 @@ body {
 }
 
 .logo {
-    bottom: 130px;
+    top: 3%;
     right: 40px;
     position: absolute;
     z-index: 10;

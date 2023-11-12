@@ -29,38 +29,52 @@
   </div>
   <img src="../assets/img/sesccncsenac.png" id="marcadaguaLogo">
   <header id="topo" class="sesc no-print">
-    <div class="dropdown">
-      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-      <ul class="dropdown-menu">
-        <li>
-          <a class="dropdown-item" href="?page=1#titulo1">Relembrando os módulos anteriores
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="?page=2#titulo2">Modelos de produção cultural</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="?page=3#titulo3">PerifaCon</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="?page=4#titulo4">O que faz o produtor cultural
-          </a>
-        </li>
-        <li><a class="dropdown-item" href="?page=5#titulo5">Qual é o papel do produtor cultural?</a></li>
-        <li><a class="dropdown-item" href="?page=6#titulo6">Referências</a></li>
-      </ul>
-    </div>
-    <img src="../assets/img/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
+    <img src="../assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
   </header>
+  <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+    <ul class="dropdown-menu">
+      <li>
+        <a class="dropdown-item" href="?page=1#titulo1">Relembrando os módulos anteriores
+        </a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="?page=2#titulo2">Modelos de produção cultural</a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="?page=3#titulo3">PerifaCon</a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="?page=4#titulo4">O que faz o produtor cultural
+        </a>
+      </li>
+      <li><a class="dropdown-item" href="?page=5#titulo5">Qual é o papel do produtor cultural?</a></li>
+      <li><a class="dropdown-item" href="?page=6#titulo6">Referências</a></li>
+    </ul>
+  </div>
+  <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
   <section id="booklet">
+    <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
+    <header class="titulo-conteudo mb-0 print">
+      <div class="container" style="padding-top:1px">
+        <!--titulo do curso para o print e leitor de tela-->
+        <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Produtor Cultural</h1>
+        <div class="row g-0 pb-4 pt-4">
+          <div class="col-9 d-flex flex-column justify-content-center align-items-start">
+            <h2 class="visually-hidden">Economia da cultura e seus impactos no desenvolvimento social e
+              econômico</h2>
+          </div>
+          <div class="col-3 d-flex flex-column justify-content-center align-items-end">
+            <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
+              imprimir</button>
+          </div>
+        </div>
+      </div>
+    </header>
     <section class="paginas">
       <div class="pagina pg1">
         <div class="bloco1">
           <div class="container">
-            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-                imprimir</button>
-            </div>
             <img src="../assets/objetos/bg1_2_1.png" class="no-print rellax  rellax1 d-none d-xl-block"
               data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
 
@@ -109,7 +123,7 @@
           </div>
         </div>
 
-        <img src="../assets/objetos/bg2_div1_1.png" class="img-fluid divisoria1 no-print">
+        <img src="../assets/objetos/bg2_div1_1cc.png" class="img-fluid divisoria1 no-print">
         <div class="bloco2">
           <div class="container">
             <h3 class="titulo2-pg1">O que é produção cultural</h3>
@@ -117,10 +131,11 @@
               produção cultural. Porém é importante ter em mente que, neste mar agitado, os conceitos e os termos, às
               vezes, têm múltiplas definições e vivem em constante movimento, assim como a cultura e a influência na
               sociedade.</p>
-            <p>Agora convidamos você a sintonizar o podcast “Desbravando a produção cultural”. Nele você saberá um pouco
+            <p>Agora convidamos você a sintonizar o <i>podcast</i> “Desbravando a produção cultural”. Nele você saberá
+              um pouco
               mais sobre os conceitos de produção cultural.</p>
-            <p class="no-print">Então se prepare e dê o play! </p>
-            <h4>Desbravando a produção cultural</h4>
+            <p class="no-print">Então se prepare e dê o <i>play</i>! </p>
+            <h4 class="text-center">Desbravando a produção cultural</h4>
             <div class="bg-podcast my-5 no-print aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
               <div class="d-flex justify-content-center aos-init aos-animate" data-aos="zoom-in">
                 <div class="sesc-audio-player no-print">
@@ -256,10 +271,6 @@
       <div class="pagina pg2">
         <div class="bloco3">
           <div class="container">
-            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-                imprimir</button>
-            </div>
             <h3 class="titulo-pg2">Modelos de produção cultural</h3>
             <p> A produção cultural é um universo amplo e diverso em que a criatividade e as expressões culturais e
               artísticas são impulsionadas. A diversidade presente nesse universo exige abordagens de produção
@@ -277,11 +288,13 @@
           <div class="container">
             <div class="painel-exposicao no-print" aria-hidden="true" data-aos="fade-up">
               <button class="btn-exposicao1" data-bs-toggle="modal" data-bs-target="#modal-exposicao1"></button>
-              <button class="btn-exposicao2" data-bs-toggle="modal" data-bs-target="#modal-exposicao2"></button>
               <button class="btn-exposicao3" data-bs-toggle="modal" data-bs-target="#modal-exposicao3"></button>
-              <button class="btn-exposicao4" data-bs-toggle="modal" data-bs-target="#modal-exposicao4"></button>
+              <button class="btn-exposicao2" data-bs-toggle="modal" data-bs-target="#modal-exposicao2"></button>
               <button class="btn-exposicao5" data-bs-toggle="modal" data-bs-target="#modal-exposicao5"></button>
               <button class="btn-exposicao6" data-bs-toggle="modal" data-bs-target="#modal-exposicao6"></button>
+              <button class="btn-exposicao4" data-bs-toggle="modal" data-bs-target="#modal-exposicao4"></button>
+
+
             </div>
             <div class="modal fade" id="modal-exposicao1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
               aria-hidden="true">
@@ -296,8 +309,10 @@
                       <div class="titulo-modal">
                         <h5>Produção audiovisual</h5>
                       </div>
-                      <p>Refere-se à produção de <a href="Javascript:" data-bs-toggle="tooltip"
-                          data-bs-title="Filmes podem ser feitos no formato de curta-metragem, com duração de até 15 minutos, média-metragem, com duração de 15 a 70 minutos, ou longa-metragem, com duração acima de 70 minutos.">filmes</a>,
+                      <p>Refere-se à produção de <button type="button" class="bt-tooltip" data-bs-toggle="tooltip"
+                          data-bs-html="true"
+                          data-bs-original-title="Filmes podem ser feitos no formato de curta-metragem, com duração de até 15 minutos, média-metragem, com duração de 15 a 70 minutos, ou longa-metragem, com duração acima de 70 minutos.">filmes
+                        </button>,
                         séries ou minisséries, webséries (séries para Internet), audiolivros (livro narrado),
                         <em>podcasts</em> (programa de rádio para Internet), videoclipes, programas e novelas para
                         televisão, <em>sites</em> e vídeos para Internet (Instagram, TikTok, Twitch TV, YouTube etc.),
@@ -688,7 +703,7 @@
             <p>Por outro lado, compreendemos, ao longo desta nossa conversa, que a expressão da cultura se desdobra em
               produtos e serviços culturais, que podem gerar emprego, renda, dignidade e autonomia para indivíduos e
               comunidades, por meio de atividades econômicas com base em cultura. </p>
-            <div class="caixa1 icone saiba-mais" data-aos="fade-up">
+            <div class="caixa1" data-aos="fade-up">
               <p>Agora, para podermos prosseguir na investigação das potencialidades econômicas da cultura, é importante
                 compreender um pouco mais a fundo como se dá a difusão de produtos e serviços culturais no Brasil, quem
                 são os agentes difusores e quais são os comportamentos do público brasileiro em relação ao consumo de
@@ -706,20 +721,21 @@
                 <img src="../assets/objetos/img_cultura.png" class="img-fluid d-block mx-auto no-print">
               </div>
             </div>
-            <div class="caixa1 citacao" data-aos="fade-up">
-              <p>[...] jornalistas, críticos, imprensa de um modo geral, livrarias, cinemas, centros culturais, teatros,
-                bibliotecas, até mesmo instituições sociais como igreja e escola, por exemplo, entre outros tantos e
-                incontáveis agentes que cumprem tal papel. Vê-se, ainda, novos modelos de negócios como espaços
-                multilinguagens, que conjugam música e gastronomia, teatro e livraria, café e artes plásticas, por
-                exemplo, como difusores que devem constar desta coleta. A profusão destes atores é gigantesca (p. 16).
-              </p>
-            </div>
+            <div class="caixa1" data-aos="fade-up">
+            <p class="citacao">[...] jornalistas, críticos, imprensa de um modo geral, livrarias,
+              cinemas, centros culturais, teatros,
+              bibliotecas, até mesmo instituições sociais como igreja e escola, por exemplo, entre outros tantos e
+              incontáveis agentes que cumprem tal papel. Vê-se, ainda, novos modelos de negócios como espaços
+              multilinguagens, que conjugam música e gastronomia, teatro e livraria, café e artes plásticas, por
+              exemplo, como difusores que devem constar desta coleta. A profusão destes atores é gigantesca (p. 16).
+            </p>
+          </div>
             <p>Claro que essa lista de difusores aumenta muito com os dispositivos eletrônicos – computadores e
               telefones celulares, por exemplo – incluindo uma série de pessoas, empresas e instituições envolvidas na
-              difusão digital, blogueiros, youtubers e influenciadores digitais, o que traz uma nova complexidade para o
+              difusão digital, blogueiros, <i>youtubers</i> e influenciadores digitais, o que traz uma nova complexidade para o
               entendimento da difusão cultural no Brasil, uma vez que o próprio meio digital é também um espaço de
               difusão. </p>
-            <p>Para você, como futuro produtor cultural, é importante perceber que as novas tecnologias de comunicação,
+            <p class="pb-5">Para você, como futuro produtor cultural, é importante perceber que as novas tecnologias de comunicação,
               que alteram nossa forma de assistir a filmes, ouvir música e até estudar, também fazem parte da cultura e
               promovem movimentos de transformação no modo como se produz e espalha cultura. </p>
           </div>
@@ -729,10 +745,6 @@
       <div class="pagina pg3">
         <div class="bloco6">
           <div class="container">
-            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-                imprimir</button>
-            </div>
             <img src="../assets/objetos/parallax_dir_3.png" class="no-print rellax  rellax4 d-none d-xl-block"
               data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
             <img src="../assets/objetos/parallax_esq_3.png" class="no-print rellax  rellax5 d-none d-xl-block"
@@ -745,8 +757,8 @@
               e serviços culturais, aponta que, quando o assunto é acesso e produção cultural, as juventudes das
               periferias brasileiras, de maneira geral, são percebidas de forma distorcida.
             </p>
-            <div class="caixa1 citacao" data-aos="fade-up">
-              <p>A periferia não é entendida como um centro de cultura quando a gente fala de investimento. Em geral,
+            <div class="caixa1" data-aos="fade-up">
+              <p class="citacao">A periferia não é entendida como um centro de cultura quando a gente fala de investimento. Em geral,
                 cursos ou até acesso à educação que você tem na periferia são focados em trabalhos manuais, operacionais
                 e nunca artísticos.
               </p>
@@ -775,7 +787,7 @@
               quebradas, mas a PerifaCon cresceu e hoje produzimos para construir pontes e deixar claro que a periferia
               é nerd, produz e consome!” (PerifaCon, 2022, n.p.).
             </p>
-            <div class="caixa1 icone saiba-mais" data-aos="fade-up">
+            <div class="caixa2-verde-claro icone saiba-mais" data-aos="fade-up">
               <p>No canal PerifaCon, no YouTube, você pode assistir ao vídeo <i>Minidoc – PerifaCon – 1ª edição</i>, no
                 qual os produtores do evento relatam como foram as etapas de produção e como se deu a ideia de criar o
                 evento.
@@ -814,10 +826,6 @@
                   <button class="btn-digital4" data-bs-toggle="modal" data-bs-target="#modal-digital4"></button>
                 </div>
               </div>
-              <div class="buttons no-print">
-                <button id="prev"></button>
-                <button id="next"></button>
-              </div>
             </div>
 
             <div class="d-block d-lg-none">
@@ -845,7 +853,7 @@
                       <figure>
                         <img src="../assets/objetos/painel_digital1.png" class="img-fluid d-block mx-auto">
                         <figcaption>
-                          Figura 8 – Show BTS no Brasil
+                          Figura 8 – <i>Show</i> BTS no Brasil
                           <br>
                           Fonte: Nogueira (2019)
                           <p class="sr-only no-print">A imagem mostra a foto de um <i>show</i> da banda BTS, na qual
@@ -904,7 +912,7 @@
                   <div class="modal-body-simples">
                     <div class="container">
                       <div class="titulo-modal">
-                        <h5><b><i>Despacito (2017) – Luis Fonsi</i></b></h5>
+                        <h5><b>Despacito (2017) – Luis Fonsi</b></h5>
                       </div>
                       <figure>
                         <img src="../assets/objetos/painel_digital2.png" class="img-fluid d-block mx-auto">
@@ -1025,20 +1033,6 @@
                         Assembleia
                         Legislativa de Minas Gerais e está disponível na íntegra, no canal da Assembleia no YouTube.
                       </p>
-                      <p>As plataformas digitais evoluíram não apenas como meio de entretenimento, mas também como
-                        ferramentas de
-                        comércio. Por exemplo, o surgimento de <i>marketplaces</i>. Em um <i>marketplace</i>, os
-                        vendedores podem
-                        cadastrar seus
-                        produtos e serviços, mas a responsabilidade pela divulgação é deles, e não da plataforma. Redes
-                        sociais,
-                        como o Facebook e o Instagram, bem como empresas de varejo, como a Magazine Luiza e a
-                        Americanas,
-                        também
-                        adotaram esse modelo. Essa tendência em expansão, dos <i>marketplaces</i>, oferece oportunidades
-                        para uma
-                        grande
-                        variedade de produtos, incluindo artesanato, arte digital e bens culturais. </p>
                     </div>
                   </div>
                   <div class="modal-footer justify-content-center">
@@ -1167,7 +1161,7 @@
                 </p>
               </figcaption>
             </figure>
-            <div class="caixa1 icone saiba-mais" data-aos="fade-up">
+            <div class="caixa1 icone pesquisar" data-aos="fade-up">
               <p>Estudante, busque na internet mais informações sobre a Tucum e outras plataformas que divulgam e vendem
                 objetos de arte indígena brasileira.
               </p>
@@ -1201,8 +1195,9 @@
                 <div id="gaitinha03-c01" class="accordion-collapse collapse" aria-labelledby="gaitinha03-h01"
                   data-bs-parent="#gaitinha03">
                   <div class="accordion-body">
-                    <p>Normalmente, são produções apresentadas em <a href="Javascript:" data-bs-toggle="tooltip"
-                        data-bs-title="Edificações destinadas a práticas culturais">aparelhos culturais</a> com
+                    <p>Normalmente, são produções apresentadas em <button type="button" class="bt-tooltip" data-bs-toggle="tooltip" data-bs-html="true"
+                      data-bs-original-title="Edificações destinadas a práticas culturais">aparelhos culturais
+                      </button> com
                       estruturas específicas (teatros, anfiteatros e espaços estruturados com palco). Seu consumo
                       acontece mediante compra de ingressos (podem ser lugares marcados ou ordem de chegada), mas, em
                       alguns casos, os ingressos são disponibilizados gratuitamente. A distribuição pode ser por meio de
@@ -1455,10 +1450,6 @@
       <div class="pagina pg4">
         <div class="bloco12">
           <div class="container">
-            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-                imprimir</button>
-            </div>
             <img src="../assets/objetos/parallax_dir_4.png" class="no-print rellax  rellax6 d-none d-xl-block"
               data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
 
@@ -2454,10 +2445,6 @@
       <div class="pagina pg5">
         <div class="bloco17">
           <div class="container">
-            <div class="col-8 d-flex flex-column justify-content-center align-items-end">
-              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-                imprimir</button>
-            </div>
             <img src="../assets/objetos/parallax_dir_5.png" class="no-print rellax  rellax8 d-none d-xl-block"
               data-rellax-speed="2" aria-hidden="true" style="transform: translate3d(0px, -218px, 0px);">
 
@@ -2509,10 +2496,6 @@
       <div class="pagina pg6">
         <div class="bloco18">
           <div class="container">
-            <div class="col-9 d-flex flex-column justify-content-center align-items-end">
-              <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i>
-                imprimir</button>
-            </div>
             <h3>Referências</h3>
             <p>AILTON Krenak conta a sua trajetória e fala da luta permanente dos povos tradicionais no Brasil. [S.l.],
               30 jul. 2020. 1 vídeo (56 min.). Publicado pelo canal Assembleia de Minas Gerais. Disponível em:

@@ -173,7 +173,7 @@ a.btn-sesc{
 }
 
 header.sesc{
-    background-image: url(../img/cabecalho/cabecalhonature.png);
+    background-image: url('../img/cabecalho.png');
     background-position: center center;   
     background-size: cover;
     height: 65px;    
@@ -681,11 +681,7 @@ margin-top: 40px;
     pointer-events: none !important;
     touch-action: none !important;
 } */
-@media only screen and (max-width: 1200px){
-    .rellax {
-        display: none;
-    }
-}
+
 @media only screen and (max-width: 1600px){
     .detalhe1 {
         width: 130px;
@@ -756,18 +752,14 @@ margin-top: 40px;
     top: 420px;
     right: 0px;
   }
-/*iphones 5 pra baixo da vida*/
-@media screen and (max-width:320px) {
-    header.sesc{
-        height: 60px;
-    }
-}
-@media screen and (max-width:991px) {
-    .bg-sesc{
-        background: white;
-    }
-}
 
+
+
+@media only screen and (max-width: 1200px){
+  .rellax {
+      display: none;
+  }
+}  
 
 /*large pra cima*/
 
@@ -786,3 +778,19 @@ margin-top: 40px;
         background: none;
     }
 }
+
+
+
+
+/*iphones 5 pra baixo da vida*/
+@media screen and (max-width:320px) {
+    header.sesc{
+        height: 60px;
+    }
+}
+@media screen and (max-width:991px) {
+    .bg-sesc{
+        background: white;
+    }
+}
+

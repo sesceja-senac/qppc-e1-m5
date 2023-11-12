@@ -1,5 +1,5 @@
 .container {
-  max-width: 1182px;
+  max-width: 928px;
   padding: 4px 40px;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -23,6 +23,8 @@
   background: url("../objetos/bg1_1.png") no-repeat;
   background-size: 100% 100%;
   padding-bottom: 46px;
+  margin-left: 5%;
+  z-index: -1;
 }
 
 .bloco2 {
@@ -52,12 +54,15 @@ h4 {
 .bloco3_1 {
   background: url("../objetos/painel_bg.png") no-repeat;
   background-size: 100% 100%;
+  margin-left: -15%;
 }
 
 .bloco4 {
   background: url("../objetos/bg2_1_2.png") no-repeat;
   background-size: 100% 100%;
-  padding-bottom: 625px;
+  padding-bottom: 23%;
+  padding-top: 10%;
+
 }
 
 .bloco4>.container {
@@ -66,7 +71,7 @@ h4 {
 }
 
 .bloco5 {
-  background: url(../objetos/bg_rodape_2.png) white no-repeat;
+  background: url(../objetos/bg_rodape_2ccc.png) white no-repeat;
   background-size: 100% 58%;
   background-position: bottom;
   padding-bottom: 451px;
@@ -194,8 +199,9 @@ h4 {
 
 .rellax1 {
   top: 336px;
-  width: 16%;
+  width: 26%;
   left: -1px;
+  z-index: 0;
 }
 
 .rellax2 {
@@ -526,6 +532,8 @@ a[data-bs-toggle="tooltip"] {
   height: 266px;
   background: url("../objetos/painel_bt1.png") no-repeat;
   border: none;
+  margin-top: 15px;
+  margin-left: 5px;
 }
 
 .btn-exposicao2 {
@@ -533,19 +541,23 @@ a[data-bs-toggle="tooltip"] {
   height: 266px;
   background: url("../objetos/painel_bt2.png") no-repeat;
   border: none;
+  margin-top: -45px;
+  margin-left: 15px;
 }
 
 .btn-exposicao3 {
-  width: 172px;
-  height: 318px;
-  background: url("../objetos/painel_bt3.png") no-repeat;
+  width: 143px;
+  height: 264px;
+  background: url("../objetos/painel_bt3cc.png") no-repeat;
   border: none;
+  margin-top: 15px;
+  margin-left: -22px;
 }
 
 .btn-exposicao4 {
-  width: 172px;
-  height: 318px;
-  background: url("../objetos/painel_bt4.png") no-repeat;
+  width: 143px;
+  height: 264px;
+  background: url("../objetos/painel_bt4cc.png") no-repeat;
   border: none;
 }
 
@@ -554,6 +566,8 @@ a[data-bs-toggle="tooltip"] {
   height: 266px;
   background: url("../objetos/painel_bt5.png") no-repeat;
   border: none;
+  margin-top: -45px;
+  margin-left: 46px;
 }
 
 .btn-exposicao6 {
@@ -564,36 +578,47 @@ a[data-bs-toggle="tooltip"] {
 }
 
 .btn-exposicao1:hover {
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 
 .btn-exposicao2:hover {
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 
 .btn-exposicao3:hover {
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 
 .btn-exposicao4:hover {
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 
 .btn-exposicao5:hover {
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 
 .btn-exposicao6:hover {
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 
 /* carousel*/
 .painel_digital {
-  /* width: 1275px;
+  width: 1275px;
   height: 651px;
-  display: flex; */
+  display: flex;
   background: url("../objetos/painel_bg_1.png");
+  margin-left: -25%;
 
+}
+
+.tooltip-link:hover {
+  color: inherit;
+}
+.tooltip-link {
+  text-decoration: none;
+  border-bottom: 2px dashed #333;
+  color: inherit;
+  font-size: 18px;
 }
 
 .btn-digital1 {
@@ -814,27 +839,37 @@ a.inverter[data-bs-toggle="tooltip"] {
   display: block;
 }
 
-.citacao {
+/* .citacao {
   padding: 40px;
   padding-left: 60px;
   position: relative;
-  margin-left: 100px;
+  margin-left: 29%;
   margin-right: 100px;
   margin-top: 60px;
   margin-bottom: 30px;
   color: #fff;
   background-color: #005154;
   border-radius: 25px;
+  font-size: 14px;
+} */
+
+.citacao {
+  margin-left: 29%;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 25px;
 }
 
+
 #gaitinha03 .accordion-header .accordion-button {
-  height: 90px !important;
+  height: 50px !important;
   background-color: #00838D !important;
   background-image: none !important;
 }
 
 #gaitinha03 .accordion-header .accordion-button img {
   margin-right: 20px !important;
+  width: 6%;
 }
 
 .painel-gaitinha .accordion-button:before {
@@ -843,6 +878,7 @@ a.inverter[data-bs-toggle="tooltip"] {
   height: 50px;
   background: url(../img/ico-mais.png) center center no-repeat;
   margin-right: 10px;
+  background-color: #ff9200;
 }
 
 .accordion-button:not(.collapsed)::before {
@@ -871,13 +907,19 @@ a.inverter[data-bs-toggle="tooltip"] {
 }
 
 .sesc-audio-player {
-  background-color: #00838D;
   color: white;
   padding: 8px 20px;
   line-height: 0;
-  margin: 20px 0;
+  margin: 100px 0;
   width: 25%;
   margin-right: 30px;
+}
+.sesc-audio-player .botoes{
+  margin-left: 10%;
+}
+
+.sesc-audio-player .barra{
+  margin-top: 5%;
 }
 
 .caixa1 {
@@ -892,6 +934,22 @@ a.inverter[data-bs-toggle="tooltip"] {
   background-color: #005154;
   border-radius: 25px;
 }
+.caixa2-verde-claro {
+  padding: 40px;
+  padding-left: 60px;
+  position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  color: #fff;
+  background-color: #018088;
+  border-radius: 25px;
+}
+
+
+
+
 
 .caixa1 .bt-tooltip {
   color: #ffff;
@@ -1060,12 +1118,12 @@ p {
 }
 
 @media screen and (max-width: 1920px) {
-  .rellax1 {
+  /* .rellax1 {
     top: 336px;
     width: 16%;
     left: -1px;
     height: 74%;
-  }
+  } */
 
   .rellax4 {
     top: 6362px;
@@ -1089,6 +1147,14 @@ p {
   margin-bottom: 100px;
 }
 
+@media only screen and (max-width: 1440px){
+  .rellax1 {
+      top: 306px;
+      width: 36%;
+      left: -1px;
+  }
+.bloco1{margin-left: 27%;}}
+
 @media screen and (max-width: 1440px) {
   .bloco1>.container {
     max-width: 856px;
@@ -1105,13 +1171,6 @@ p {
     left: 36px;
   }
 
-  .rellax1 {
-    top: 306px;
-    width: 23%;
-    height: 107%;
-    left: -1px;
-  }
-
   .rellax4 {
     top: 6628px;
     width: 12%;
@@ -1124,20 +1183,36 @@ p {
     left: 20px;
   }
 }
+@media only screen and (max-width: 1400px){
+  .rellax1 {
+      top: 306px;
+      width: 36%;
+      left: -1px;
+  }
+.bloco1{margin-left: 29%;}
+}
 
 @media screen and (max-width: 1400px) {
-  .rellax1 {
+  /* .rellax1 {
     top: 306px;
     width: 22%;
     height: 85%;
     left: -1px;
-  }
+  } */
 
   .rellax7 {
     top: 3545px;
     width: 10%;
     left: 73px;
   }
+}
+@media only screen and (max-width: 1366px){
+  .rellax1 {
+      top: 306px;
+      width: 37%;
+      left: -1px;
+  }
+.bloco1{margin-left: 30%;}
 }
 
 @media screen and (max-width: 1151px) {
@@ -1153,6 +1228,20 @@ p {
     align-content: center;
     flex-wrap: wrap;
   }
+  .bloco1{margin-left: unset;}
+}
+@media only screen and (max-width: 820px) {
+  .btn-digital1 {
+  scale: 0.9;}
+  .btn-digital2 {
+    scale: 0.9;
+  }
+  .btn-digital3 {
+    scale: 0.9;
+}
+.btn-digital4 {
+  scale: 0.9;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -1217,26 +1306,6 @@ p {
   .bloco5 {
     background-size: 100% 40%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1329,3 +1398,9 @@ p {
 
 
 }
+@media screen and (max-width: 375px) {
+.divisoria1 {
+  margin-top: -4px;
+  position: relative;
+  margin-bottom: -5px;
+}}
