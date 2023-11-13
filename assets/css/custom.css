@@ -235,7 +235,7 @@ h4 {
 }
 
 .rellax7 {
-  top: 3545px;
+  top: 380%;
   width: 10%;
   left: 91px;
 }
@@ -1149,6 +1149,9 @@ iframe {
 p {
   word-wrap: break-word;
 }
+.show-mobi {
+  display: none;
+}
 
 @media screen and (max-width: 1920px) {
   /* .rellax1 {
@@ -1191,6 +1194,16 @@ p {
   .bloco1 {
     margin-left: 27%;
   }
+  .rellax7 {
+    top: 450%;
+    width: 10%;
+    left: 91px;
+}
+.rellax6 {
+  top: 4809px;
+  width: 10%;
+  right: 91px;
+}
 }
 
 @media screen and (max-width: 1440px) {
@@ -1232,22 +1245,19 @@ p {
   .bloco1 {
     margin-left: 29%;
   }
-}
-
-@media screen and (max-width: 1400px) {
-  /* .rellax1 {
-    top: 306px;
-    width: 22%;
-    height: 85%;
-    left: -1px;
-  } */
-
   .rellax7 {
-    top: 3545px;
+    top: 386%;
     width: 10%;
-    left: 73px;
-  }
+    left: 91px;
 }
+.rellax6 {
+  top: 4809px;
+  width: 10%;
+  right: 109px;
+}
+}
+
+
 
 @media only screen and (max-width: 1366px) {
   .rellax1 {
@@ -1259,6 +1269,16 @@ p {
   .bloco1 {
     margin-left: 30%;
   }
+  .rellax7 {
+    top: 523%;
+    width: 10%;
+    left: 91px;
+}
+.rellax6 {
+  top: 4809px;
+  width: 10%;
+  right: 83px;
+}
 }
 
 @media screen and (max-width: 1151px) {
@@ -1411,10 +1431,12 @@ p {
   padding-bottom: 451px;
   margin-top: -5px;
 }
-
-
+.show-mobi {
+  display: block;
+}
 
 }
+
 @media only screen and (max-width: 768px) {
 #accordionExample.painel-gaitinha .accordion-button:before {
   margin-left: -19px;
@@ -1523,12 +1545,20 @@ p {
     margin-top: 78px;
   }
   .sesc-audio-player .botoes {
-    margin-left: 14%;
+    margin-left: 24%;
   }
   .sesc-audio-player .barra {
     margin-top: 7%;
+    width: 90%;
+    margin-left: 5%;
   }
-  .caixa1 {
+  .sesc-audio-player .timestamp {
+    display:block; 
+    vertical-align:auto;
+    margin-left: 20px;
+    margin-top: 1rem;
+}
+  .caixa1, .caixa2-verde-claro {
     margin-left: unset;
     margin-right: unset;
   }
@@ -1601,6 +1631,25 @@ p {
 }
 
 .accordion-button {height: 90px !important;}
+.game-descricao-img img {
+  top: -3px !important;
+  left: -36px;
+}
+.btn-digital1 {
+  scale: 0.6;
+  margin-bottom: -80px;
+}
+.btn-digital2 {
+  scale: 0.6;
+  margin-bottom: -80px;
+}
+.btn-digital3 {
+  scale: 0.6;
+  margin-bottom: -80px;
+}
+.btn-digital4 {
+  scale: 0.6;
+}
 }
 
 @media screen and (max-width: 375px) {
