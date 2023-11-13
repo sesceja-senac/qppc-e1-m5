@@ -16,6 +16,9 @@
 
 .icone.praticar::before{
     background-image: url(../img/ico_vamospraticar2.png);
+    width: 114px;
+    height: 127px;
+
 }
 
 .icone.pergunta::before{

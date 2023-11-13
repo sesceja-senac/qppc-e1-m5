@@ -505,7 +505,8 @@ figcaption {
 }
 
 .game-descricao-img img {
-  top: 22px !important;
+  top: -3px !important;
+  left: -23px;
 }
 
 a[data-bs-toggle="tooltip"] {
@@ -532,7 +533,7 @@ a[data-bs-toggle="tooltip"] {
   height: 266px;
   background: url("../objetos/painel_bt1.png") no-repeat;
   border: none;
-  margin-top: 15px;
+  margin-top: 40px;
   margin-left: 5px;
 }
 
@@ -541,8 +542,8 @@ a[data-bs-toggle="tooltip"] {
   height: 266px;
   background: url("../objetos/painel_bt2.png") no-repeat;
   border: none;
-  margin-top: -45px;
-  margin-left: 15px;
+  margin-top: -11px;
+  margin-left: 12px;
 }
 
 .btn-exposicao3 {
@@ -550,8 +551,8 @@ a[data-bs-toggle="tooltip"] {
   height: 264px;
   background: url("../objetos/painel_bt3cc.png") no-repeat;
   border: none;
-  margin-top: 15px;
-  margin-left: -22px;
+  margin-top: 40px;
+  margin-left: -10px;
 }
 
 .btn-exposicao4 {
@@ -559,6 +560,7 @@ a[data-bs-toggle="tooltip"] {
   height: 264px;
   background: url("../objetos/painel_bt4cc.png") no-repeat;
   border: none;
+  margin-top: 40px;
 }
 
 .btn-exposicao5 {
@@ -566,8 +568,8 @@ a[data-bs-toggle="tooltip"] {
   height: 266px;
   background: url("../objetos/painel_bt5.png") no-repeat;
   border: none;
-  margin-top: -45px;
-  margin-left: 46px;
+  margin-top: -11px;
+  margin-left: 37px;
 }
 
 .btn-exposicao6 {
@@ -575,30 +577,31 @@ a[data-bs-toggle="tooltip"] {
   height: 266px;
   background: url("../objetos/painel_bt6.png") no-repeat;
   border: none;
+  margin-top: 40px;
 }
 
 .btn-exposicao1:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 .btn-exposicao2:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 .btn-exposicao3:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 .btn-exposicao4:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 .btn-exposicao5:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 .btn-exposicao6:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 /* carousel*/
@@ -858,6 +861,7 @@ a.inverter[data-bs-toggle="tooltip"] {
   font-size: 14px;
   color: #fff;
   border-radius: 25px;
+  padding-left: 0;
 }
 
 
