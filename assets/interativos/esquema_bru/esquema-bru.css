@@ -42,7 +42,7 @@ div.esquemaDaBru{
     background-color: rgb(215, 235, 175);
     border-color: green;    
     color: green;
-    background-image: url(ico-positive.png);    
+    background-image: url(ico-positive.png);   
 }
 .esquemaDaBru .selected.errado{
     background-color: rgb(235, 175, 175);  
@@ -55,4 +55,10 @@ div.esquemaDaBru{
     margin-top: 10px;
     font-weight: bold;
     color: #00838D;
+}
+.esquemaDaBru .f-positivo{
+    background-color: #fff;
+}
+.esquemaDaBru .f-negativo{
+    background-color: #fff;
 }

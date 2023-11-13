@@ -436,6 +436,15 @@ body {
         left: 0;
         margin: 0px auto;
     }
+    .capa-container{display: none;}
+    .modal-intro{
+      background-size: 30%;
+      background-position: center;
+      background: unset;
+      max-width: 100%;
+      padding: 50px;
+      background: #007981;
+  }
 }
 
 @media screen and (max-width: 768px) {

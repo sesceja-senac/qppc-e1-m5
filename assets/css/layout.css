@@ -173,7 +173,7 @@ a.btn-sesc{
 }
 
 header.sesc{
-    background-image: url('../img/cabecalho.png');
+    background-image: url('../img/cabecalho/cabecalho.png');
     background-position: center center;   
     background-size: cover;
     height: 65px;    
@@ -783,9 +783,11 @@ margin-top: 40px;
 
 
 /*iphones 5 pra baixo da vida*/
+
+
 @media screen and (max-width:320px) {
     header.sesc{
-        height: 60px;
+        height: 50px;
     }
 }
 @media screen and (max-width:991px) {
