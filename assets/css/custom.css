@@ -1197,6 +1197,9 @@ p {
   width: 10%;
   right: 91px;
 }
+.painel-exposicao {
+  margin-left: 8%;
+}
 }
 
 @media screen and (max-width: 1440px) {
@@ -1284,6 +1287,17 @@ p {
   margin-top: -25px;
   position: relative;
   margin-bottom: -5px;
+}
+.painel-exposicao {
+  background: url(../objetos/painel-cc.png) no-repeat;
+  width: 930px;
+  height: 532px;
+  display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8%;
 }
 }
 

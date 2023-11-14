@@ -29,7 +29,7 @@ body {
     }
 
     to {
-        top: 15%;
+        top: 33%;
     }
 }
 
@@ -69,7 +69,7 @@ body {
     }
 
     to {
-        top: -5%;
+        top: 0%;
     }
 }
 
@@ -122,7 +122,7 @@ body {
     right: 0;
     left: -250px;
     margin: 0 auto;
-    top: 153px;
+    top: 33%;
     z-index: 4;
     animation-duration: 5s;
     animation-name: movMenino;
@@ -189,7 +189,7 @@ body {
     z-index: 9;
     color: #fff;
     position: absolute;
-    left: 980px;
+    right: 2%;
     animation-duration: 5s;
     animation-name: movTitulo;
 }
@@ -198,7 +198,7 @@ body {
     left: 22%;
     position: absolute;
     z-index: 11;
-    top: -5%;
+    top: 0%;
     animation-duration: 5s;
     animation-name: movPlaca;
 }
@@ -360,7 +360,8 @@ body {
         margin-top: -60px;
         margin-bottom: -40px;
     }
-    #titulo1 {
+
+    /*     #titulo1 {
         bottom: 48px;
         z-index: 9;
         color: #fff;
@@ -368,19 +369,50 @@ body {
         left: 651px;
         animation-duration: 5s;
         animation-name: movTitulo;
+    }  */
+}
+
+@media only screen and (max-width: 1440px) {
+    .iniciar1 {
+        top: 18%;
+        right: 4%;
+        width: 478px;
+        height: 269px;
+        position: absolute;
+        z-index: 99999;
+        background: url(../../assets/objetos/tela-inicial/bot_iniciar.png) no-repeat;
     }
 }
+
+
+
+
+
 @media screen and (max-width: 1400px) {
     #titulo1 {
         bottom: 48px;
         z-index: 9;
         color: #fff;
         position: absolute;
-        left: 404px;
+        right: 2%;
         animation-duration: 5s;
         animation-name: movTitulo;
     }
+
+    .iniciar1 {
+        top: 18%;
+        right: 4%;
+        width: 478px;
+        height: 269px;
+        position: absolute;
+        z-index: 99999;
+        background: url(../../assets/objetos/tela-inicial/bot_iniciar.png) no-repeat;
+    }
+
+
+
 }
+
 @media screen and (max-width: 1079px) {
     .bt-iniciar {
         top: 155px;
@@ -435,22 +467,29 @@ body {
         left: 0;
         margin: 0px auto;
     }
-    .capa-container{display: none;}
-    .modal-intro{
-      background-size: 30%;
-      background-position: center;
-      background: unset;
-      max-width: 100%;
-      padding: 50px;
-      background: #007981;
-  }
-  #tela-inicial {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    padding: unset;
-    background: url('../objetos/tela-inicial/capa_bg-820.png') center center;
-}
+
+    .capa-container {
+        display: none;
+    }
+
+    .modal-intro {
+        background-size: 30%;
+        background-position: center;
+        background: unset;
+        max-width: 100%;
+        padding: 50px;
+        background: #007981;
+    }
+
+    #tela-inicial {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        padding: unset;
+        background: unset;
+        background-size: unset;
+        background-color: #005154;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -489,14 +528,6 @@ body {
         z-index: 10;
     }
 
-    #tela-inicial {
-        position: relative;
-        height: 100vh;
-        width: 100%;
-        padding: unset;
-        background: url('../objetos/tela-inicial/capa_bg-820.png') center center;
-    }
-
     .menino {
         position: absolute;
         right: 0;
@@ -509,16 +540,15 @@ body {
         scale: 0.3;
     }
 
+}
 
+@media screen and (max-width: 480px) {
 
-
-
-
-
-
-
-
-
-
-
+    .menino {
+        position: absolute;
+        right: 0;
+        left: -250px;
+        margin: unset;
+        top: 130px;
+    }
 }
