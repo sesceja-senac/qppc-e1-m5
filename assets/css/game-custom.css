@@ -10,7 +10,8 @@
 .card {
     display: inline-block;
     height: auto;
-    width: 150px;
+    width: 31%;
+    height: 55%;
     margin: 5px;
     box-shadow: 2px 2px 3px #333;
     border-radius: 10px;
@@ -45,7 +46,7 @@
 }
 
 .game-itens-container {
-    margin: 0 !important; padding: 25px 0;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;background-color: #ffbc62;max-width: calc(100% - 24px);margin-left: auto !important;margin-right: auto !important;
+padding: 25px 0;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;background-color: #ffbc62;max-width: calc(100% - 24px);margin-left: auto !important;margin-right: auto !important;
 }
 .game-descricao-img img {
     width: 150px;
@@ -107,7 +108,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 25px 0;
+    margin: 50px 0;
 }
 #content-game {
     max-width: 928px;
@@ -143,12 +144,24 @@ color: white;
     }
     #slots .row, #cardPile{
         padding-top: 5px !important;
-        margin-bottom: 5px !important;
+        margin-bottom: 100% !important;
     }
     .game-body .slot, .game-titulo{
         max-width: 100%;
     }
     .card {
         display: inline;
-    }
+        width: 46%;
+        height: 43%;
+}
+#slots .row,
+#cardPile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+
 }

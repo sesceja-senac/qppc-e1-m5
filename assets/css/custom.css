@@ -40,11 +40,15 @@ h4 {
 .bloco2_1 {
   background: url("../objetos/bg3_1.png") no-repeat;
   background-size: 100% 100%;
+  margin-bottom: -7%;
+  padding-bottom: 10%;
 }
 
 .bloco3 {
   background: url("../objetos/bg1_2.png") no-repeat;
   background-size: cover;
+  margin-top: -7%;
+  padding-top: 6%;
 }
 
 .bloco3>.container {
@@ -80,6 +84,8 @@ h4 {
 .bloco6 {
   background: url("../objetos/bg1_1_3.png") no-repeat;
   background-size: 100% 100%;
+  margin-top: -7%;
+  padding-top: 6%;
 }
 
 .bloco6>.container {
@@ -122,6 +128,8 @@ h4 {
 .bloco12 {
   background: url("../objetos/bg1_4.png") no-repeat;
   background-size: 100% 100%;
+  margin-top: -7%;
+  padding-top: 6%;
 }
 
 .bloco12>.container {
@@ -158,8 +166,12 @@ h4 {
 }
 
 .bloco18 {
-  background: url("../objetos/referencias.jpg") no-repeat;
-  background-size: 100% 100%;
+  background: url("../objetos/refs.jpg") no-repeat;
+  background-attachment: fixed;
+  margin-top: -7%;
+  padding-top: 6%;
+  margin-bottom: -7%;
+  padding-bottom: 10%;
 }
 
 .bloco18>.container {
@@ -636,8 +648,6 @@ a[data-bs-toggle="tooltip"] {
 
 
 
-
-
 /* carousel*/
 .painel_digital {
   width: 1275px;
@@ -645,9 +655,7 @@ a[data-bs-toggle="tooltip"] {
   display: flex;
   background: url("../objetos/painel_bg_1.png");
   margin-left: -25%;
-
 }
-
 
 .btn-digital1 {
   width: 643px;
@@ -656,13 +664,14 @@ a[data-bs-toggle="tooltip"] {
   border: none;
   scale: 0.5;
 }
-
+  
 .btn-digital2 {
   width: 643px;
   height: 403px;
   background: url("../objetos/painel_digital2.png") no-repeat;
   border: none;
   scale: 0.5;
+
 }
 
 .btn-digital3 {
@@ -671,6 +680,7 @@ a[data-bs-toggle="tooltip"] {
   background: url("../objetos/painel_digital3.png") no-repeat;
   border: none;
   scale: 0.5;
+
 }
 
 .btn-digital4 {
@@ -679,48 +689,24 @@ a[data-bs-toggle="tooltip"] {
   background: url("../objetos/painel_digital4.png") no-repeat;
   border: none;
   scale: 0.5;
-}
 
-#carousel {
+} 
+
+ #carousel {
   position: relative;
   height: 651px;
   top: 50%;
-  /* transform: translateY(-7%); */
+  /*transform: translateY(-7%); */
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 20px;
-}
+} 
 
 #carousel div {
   position: absolute;
   transition: transform 1s, left 1s, opacity 1s, z-index 0s;
   opacity: 1;
 }
-
-#prev {
-  background: url("../img/ico-esq_alt.png") #005154;
-  width: 20px;
-  height: 20px;
-  border: none;
-  border-radius: 20px;
-}
-
-#next {
-  background: url("../img/ico-dir_alt.png") #005154;
-  width: 20px;
-  height: 20px;
-  border: none;
-  border-radius: 20px;
-
-}
-
-
-
-
-
-
-
-
 
 #carousel div img {
   width: 400px;
@@ -749,7 +735,7 @@ a[data-bs-toggle="tooltip"] {
 
 #carousel div.prev {
   z-index: 5;
-  left: 29%;
+  left: 20%;
   transform: translateY(50px) translateX(-50%);
 }
 
@@ -770,8 +756,9 @@ a[data-bs-toggle="tooltip"] {
 
 #carousel div.selected {
   z-index: 10;
-  left: 55%;
+  left: 40%;
   transform: translateY(0px) translateX(-50%);
+  width: 30%;
 }
 
 #carousel div.next {
@@ -791,6 +778,13 @@ a[data-bs-toggle="tooltip"] {
   opacity: 0.7;
 }
 
+#carousel div.prevSecond {
+  z-index: 4;
+  left: 75%;
+  top:-31%;
+  transform: translateY(50%) translateX(-50%);
+}
+
 #carousel div.nextRightSecond img {
   width: 200px;
 }
@@ -803,7 +797,7 @@ a[data-bs-toggle="tooltip"] {
   margin-bottom: 20px;
 }
 
-/* fim carousel*/
+/* fim carousel */
 
 .esquemaDaBru .alt-verdadeiro {
   background: url('../objetos/bt_verdadeiro.png') center no-repeat;
@@ -979,10 +973,6 @@ a.inverter[data-bs-toggle="tooltip"] {
   background-color: #018088;
   border-radius: 25px;
 }
-
-
-
-
 
 .caixa1 .bt-tooltip {
   color: #ffff;
@@ -1233,6 +1223,38 @@ p {
     width: 10%;
     left: 20px;
   }
+  .bloco2_1 {
+    background: url(../objetos/bg3_1.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: -9%;
+    padding-bottom: 10%;
+}
+.bloco3 {
+  background: url(../objetos/bg1_2.png) no-repeat;
+  background-size: cover;
+  margin-top: -10%;
+  padding-top: 8%;
+}
+.bloco6 {
+  background: url(../objetos/bg1_1_3.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: -10%;
+  padding-top: 9%;
+}
+.bloco12 {
+  background: url(../objetos/bg1_4.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: -10%;
+  padding-top: 8%;
+}
+.bloco18 {
+  background: url(../objetos/refs.jpg) no-repeat;
+  background-attachment: fixed;
+  margin-top: -10%;
+  padding-top: 9%;
+  margin-bottom: -10%;
+  padding-bottom: 12%;
+}
 }
 
 @media only screen and (max-width: 1400px) {
@@ -1434,9 +1456,17 @@ p {
 .show-mobi {
   display: block;
 }
+.bloco12 {
+  background: unset;
+}
+.bloco2_1 {
+  background: unset;
+}
+.bloco3{background: unset;}
+.bloco6{background: unset;}
+.bloco18{background: unset;}
 
 }
-
 @media only screen and (max-width: 768px) {
 #accordionExample.painel-gaitinha .accordion-button:before {
   margin-left: -19px;
@@ -1453,6 +1483,21 @@ p {
   margin: 0;
   padding-left: 5%;
 }
+.btn-digital1 {
+  scale: 0.9;
+}
+
+.btn-digital2 {
+  scale: 0.9;
+}
+
+.btn-digital3 {
+  scale: 0.9;
+}
+
+.btn-digital4 {
+  scale: 0.9;
+}
 }
 
 
@@ -1463,25 +1508,6 @@ p {
     background-repeat: no-repeat;
   }
 
-  .btn-digital1 {
-    margin-bottom: -151px;
-    margin-top: -64px;
-  }
-
-  .btn-digital2 {
-    margin-bottom: -151px;
-    margin-top: -64px;
-  }
-
-  .btn-digital3 {
-    margin-bottom: -151px;
-    margin-top: -64px;
-  }
-
-  .btn-digital4 {
-    margin-bottom: -151px;
-    margin-top: -64px;
-  }
 
   #gaitinha03 .accordion-button {
     background-image: none;
@@ -1504,7 +1530,6 @@ p {
   .bloco5 {
     background-size: 100% 40%;
   }
-
 
 
 }
@@ -1557,7 +1582,7 @@ p {
     vertical-align:auto;
     margin-left: 20px;
     margin-top: 1rem;
-}
+  }
   .caixa1, .caixa2-verde-claro {
     margin-left: unset;
     margin-right: unset;
@@ -1605,7 +1630,7 @@ p {
     color: #fff;
   }
 
-  #accordionExample.painel-gaitinha .accordion-button strong {
+#accordionExample.painel-gaitinha .accordion-button strong {
     margin-left: 3%;
     padding-left: 10%;
 }
@@ -1649,6 +1674,15 @@ p {
 }
 .btn-digital4 {
   scale: 0.6;
+}
+.mobile {
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: unset;
 }
 }
 

@@ -10,12 +10,6 @@ window.addEventListener('load', function () {
 
 
 
-
-
-
-
-
-
 // carousel
 function moveToSelected(element) {
   if (element == "next") {
