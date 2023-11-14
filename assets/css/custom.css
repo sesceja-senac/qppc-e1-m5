@@ -1179,7 +1179,7 @@ p {
 
 @media only screen and (max-width: 1440px) {
   .rellax1 {
-    top: 306px;
+    top: 304px;
     width: 36%;
     left: -1px;
   }
@@ -1262,7 +1262,7 @@ p {
 
 @media only screen and (max-width: 1400px) {
   .rellax1 {
-    top: 306px;
+    top: 302px;
     width: 36%;
     left: -1px;
   }
@@ -1280,13 +1280,18 @@ p {
   width: 10%;
   right: 109px;
 }
+.divisoria1 {
+  margin-top: -25px;
+  position: relative;
+  margin-bottom: -5px;
+}
 }
 
 
 
 @media only screen and (max-width: 1366px) {
   .rellax1 {
-    top: 306px;
+    top: 300px;
     width: 37%;
     left: -1px;
   }
