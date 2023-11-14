@@ -10,8 +10,8 @@
 .card {
     display: inline-block;
     height: auto;
-    width: 31%;
-    height: 55%;
+    width: 208px;
+    height:280px;
     margin: 5px;
     box-shadow: 2px 2px 3px #333;
     border-radius: 10px;
@@ -24,7 +24,8 @@
     padding: 5px;
     cursor: pointer;
 }
-
+div #slot-5.slot{     
+}
 .card:hover {
     box-shadow: 5px 5px 6px #333;
 }
@@ -77,7 +78,7 @@ padding: 25px 0;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px
     border-top: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    max-width: 230px;
+    max-width: 300px !important;
     margin: auto;
     display: block;
     
@@ -130,7 +131,13 @@ color: white;
 .slot .gu-transit {
     display: none;
 }
-
+@media screen and (max-width:820px) {
+.card {
+    display: inline-block;
+    height: auto;
+    width: 183px;
+    height: 280px;}
+}
 @media (max-width:560px) {
     /* #bgmodal-acerto .modal-content{
         margin-top: -200%;
