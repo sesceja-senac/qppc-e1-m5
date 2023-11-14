@@ -115,7 +115,6 @@ body {
     background: url("../objetos/tela-inicial/capa_bg.png") no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-
 }
 
 .menino {
@@ -445,6 +444,13 @@ body {
       padding: 50px;
       background: #007981;
   }
+  #tela-inicial {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: unset;
+    background: url('../objetos/tela-inicial/capa_bg-820.png') center center;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -488,9 +494,7 @@ body {
         height: 100vh;
         width: 100%;
         padding: unset;
-        background: unset;
-        background-size: unset;
-        background-color: #005154;
+        background: url('../objetos/tela-inicial/capa_bg-820.png') center center;
     }
 
     .menino {
