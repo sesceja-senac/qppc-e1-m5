@@ -352,42 +352,12 @@ body {
 .botao-fechar-2:hover {
     transform: translateY(-3px);
 }
+@media screen and (max-width: 1450px) {
+.iniciar1 {
+    top: 21%;
+    right: 4%;}
 
-/*
-@media screen and (max-width: 1930px) {
-    .div-conteudo {
-        transform: scale(0.8);
-        margin-top: -60px;
-        margin-bottom: -40px;
-    }
-
-       #titulo1 {
-        bottom: 48px;
-        z-index: 9;
-        color: #fff;
-        position: absolute;
-        left: 651px;
-        animation-duration: 5s;
-        animation-name: movTitulo;
-    }  
 }
-
-@media only screen and (max-width: 1440px) {
-    .iniciar1 {
-        top: 18%;
-        right: 4%;
-        width: 478px;
-        height: 269px;
-        position: absolute;
-        z-index: 99999;
-        background: url(../../assets/objetos/tela-inicial/bot_iniciar.png) no-repeat;
-    }
-}
-
-
-
-
-
 @media screen and (max-width: 1400px) {
     #titulo1 {
         bottom: 48px;
@@ -409,7 +379,9 @@ body {
         background: url(../../assets/objetos/tela-inicial/bot_iniciar.png) no-repeat;
     }
 
-
+    .iniciar1 {
+        top: 21%;
+        right: 4%;}
 
 }
 
@@ -437,84 +409,7 @@ body {
     }
 }
 
-@media screen and (max-width: 820px) {
 
-
-    .capa-container {
-        display: none;
-    }
-
-    .modal-intro {
-        background-size: 30%;
-        background-position: center;
-        background: unset;
-        max-width: 100%;
-        padding: 50px;
-        background: #007981;
-    }
- 
-    #tela-inicial {
-        position: relative;
-        height: 100vh;
-        width: 100%;
-        padding: unset;
-        background: url('../objetos/tela-inicial/capa_bg-820.png');
-
-    } */
-/*     .bt-iniciar-mobile {
-       margin-left: 50%;
-    } */
-
-/*     #tela-inicial {background: unset;}
-    .menino {
-        position: absolute;
-        right: 0;
-        left: -44px;
-        margin: 0 auto;
-        top: 17%;
-        animation-duration: unset;
-        animation-name: unset;}
-
-    .imgVideo {
-        margin-left: 25px;}
-
-    #titulo1 {
-        bottom: 168px;}
-
-    #titulo2 {
-        bottom: 8%;
-        z-index: 9;
-        color: #fff;
-        position: absolute;
-        right: 2%;}   
-}
-
-@media only screen and (max-width: 768px) {
-.menino {
-    position: absolute;
-    right: 0;
-    margin: unset;
-    top: 171px;
-    z-index: unset;
-    animation-duration: unset;
-    animation-name: unset;
-    scale: 0.8;
-}
-
-#titulo1 {margin-left: 28%;}
-#titulo2 {
-    bottom: 1%;
-    z-index: 9;
-    color: #fff;
-    position: absolute;
-    right: 2%;
-}
-.bt-iniciar-mobile {
-    margin-left: 50%;
- }
-
-}
-*/
 @media screen and (max-width: 820px) {
 
     .menino2 {
@@ -562,6 +457,8 @@ body {
         left: 23%;
         margin-top: -6%;
         scale: 0.7;
+        animation-duration: unset;
+        animation-name: unset;
      }
      .modal-intro {
         background-size: 30%;
