@@ -140,11 +140,13 @@ color: white;
     } */
     #slots .col-12.col-md-4.mt-3.mb-3{
         margin-bottom: 5px !important;
-        margin-top: 5px !important;
+        margin-top: 5% !important;
+        padding-top: 27% !important;
     }
     #slots .row, #cardPile{
         padding-top: 5px !important;
         margin-bottom: 100% !important;
+        margin-top: -45% !important;
     }
     .game-body .slot, .game-titulo{
         max-width: 100%;
