@@ -24,8 +24,7 @@
     padding: 5px;
     cursor: pointer;
 }
-div #slot-5.slot{     
-}
+
 .card:hover {
     box-shadow: 5px 5px 6px #333;
 }
@@ -159,9 +158,11 @@ color: white;
         max-width: 100%;
     }
     .card {
-        display: inline;
-        width: 46%;
-        height: 43%;
+        display: inline-block;
+        height: auto;
+        width: 183px;
+        height: 280px;
+    }
 }
 #slots .row,
 #cardPile {

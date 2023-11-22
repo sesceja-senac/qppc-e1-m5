@@ -323,9 +323,6 @@ h4 {
   margin-bottom: 20px;
 }
 
-
-
-
 .modal-body {
   background: url("../objetos/bg_modal.png") no-repeat;
   background-size: 100% 100%;
@@ -1067,8 +1064,6 @@ a.inverter[data-bs-toggle="tooltip"] {
   background-color: #00838d;
 }
 
-
-
 .dropdown-menu {
   background: unset;
   background-color: #00838d !important;
@@ -1123,7 +1118,7 @@ p {
   display: none;
 }
 .game-body .slot {
-  min-height: 150px;
+  min-height: 400px;
 }
 
 @media screen and (max-width: 1920px) {
@@ -1707,7 +1702,7 @@ p {
 
   .game-descricao-img img {
     top: -3px !important;
-    left: -36px;
+    left: -43px;
   }
 
   .btn-digital1 {
