@@ -102,11 +102,11 @@ font-weight: 700;
   font-size: 17px;
 }
 .citacao {
-  margin-left: 29%;
+  margin-left: unset;
   font-size: 14px;
   color: #000;
   border-radius: 25px;
-  padding-left: 15%;
+  padding-left: unset;
 }
 @media print {
 

@@ -83,11 +83,10 @@ h4 {
 }
 
 .bloco6 {
-  background: url("../objetos/bg1_1_3.png") no-repeat;
-  background-size: 100% 100%;
+  background: url("../objetos/bg1_elem2.png") left bottom no-repeat, url("../objetos/bg1_elem1.png") right center no-repeat, url("../objetos/bg1_color.png") ;
+  background-size: 25% 25% 100%;
   margin-top: -7%;
   padding-top: 6%;
-  background-position: fixed !important;
 }
 
 .bloco6>.container {
@@ -496,8 +495,9 @@ figcaption {
 }
 
 .game-descricao-img img {
-  top: -3px !important;
-  left: -23px;
+  top: 20px !important;
+  left: -11px;
+  scale: 1.5;
 }
 
 a[data-bs-toggle="tooltip"] {
@@ -1122,6 +1122,9 @@ p {
 .show-mobi {
   display: none;
 }
+.game-body .slot {
+  min-height: 150px;
+}
 
 @media screen and (max-width: 1920px) {
   /* .rellax1 {
@@ -1225,11 +1228,10 @@ p {
   }
 
   .bloco6 {
-    background: url(../objetos/bg1_1_3.png) no-repeat;
-    background-size: 100% 100%;
+    background: url("../objetos/bg1_elem2.png") left bottom no-repeat, url("../objetos/bg1_elem1.png") right center no-repeat, url("../objetos/bg1_color.png") ;
+    background-size: 25%, 25%, 100%;
     margin-top: -10%;
-    padding-top: 9%;
-
+    padding-top: 8%;
   }
 
   .bloco12 {
@@ -1564,7 +1566,7 @@ p {
   }
 
   .bloco5 {
-    background-size: 100% 40%;
+    background-size: 100% 26%;
   }
 
 
@@ -1674,14 +1676,15 @@ p {
   #accordionExample.painel-gaitinha .accordion-button strong {
     margin-left: 3%;
     padding-left: 10%;
+    height: 50px !important;
+    background-color: #00838D !important;
+    background-image: none !important;
+    font-size: 0.7rem !important;
   }
 
-  #accordionExample.painel-gaitinha .accordion-button:before {
+  #accordionExample .accordion-button:before {
     margin-left: -19px;
     background-repeat: no-repeat;
-    width: 53px;
-    height: 83px;
-    top: Calc(50% - 42px);
     display: block;
     left: 19px;
     position: absolute;
@@ -1690,7 +1693,6 @@ p {
   .accordion-button {
     padding: 10px 0px;
   }
-
   #accordionExample .accordion-button {
     background-image: none;
     height: auto;
@@ -1700,7 +1702,7 @@ p {
   }
 
   .accordion-button {
-    height: 90px !important;
+    height: 50px !important;
   }
 
   .game-descricao-img img {
@@ -1745,6 +1747,28 @@ p {
   .bloco12 {
     padding-bottom: unset;
   }
+  .painel-gaitinha .accordion-button:before {
+    content: "";
+    width: 54px;
+    height: 54px;
+    background: url(../img/ico-mais.png) center center no-repeat;
+    margin-right: 10px;
+    background-color: #ff9200;
+    scale: 0.9;
+    padding: 23px;
+    margin-left: -2px;
+}
+#gaitinha03 .accordion-header .accordion-button img {
+  margin-right: 20px !important;
+  width: 6%;
+  margin-left: 10px;
+}
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 375px) {
@@ -1754,3 +1778,12 @@ p {
     margin-bottom: -5px;
   }
 }
+@media only screen and (max-width: 375px) {
+#accordionExample.painel-gaitinha .accordion-button strong {
+  margin-left: 3%;
+  padding-left: 10%;
+  height: 50px !important;
+  background-color: #00838D !important;
+  background-image: none !important;
+  font-size: 0.6rem !important;
+}}
