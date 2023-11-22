@@ -87,7 +87,7 @@ h4 {
   background-size: 100% 100%;
   margin-top: -7%;
   padding-top: 6%;
-  background-attachment: fixed !important;
+  background-position: fixed !important;
 }
 
 .bloco6>.container {
@@ -133,7 +133,7 @@ h4 {
   margin-top: -7%;
   padding-top: 6%;
   padding-bottom: 6%;
-  background-position: fixed;
+  background-position: fixed !important;
 }
 
 .bloco12>.container {
