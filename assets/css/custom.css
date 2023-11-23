@@ -251,7 +251,7 @@ h4 {
 }
 
 .rellax7 {
-  top: 453%;
+  top: 453% !important;
   width: 10%;
   left: 91px;
 }
