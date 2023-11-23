@@ -137,6 +137,7 @@ h4 {
 
 .bloco12>.container {
   background-color: #fff;
+  height: 950px !important;
 }
 
 .bloco13 {
@@ -1423,6 +1424,11 @@ p {
   .bloco12 {
     padding-bottom: unset;
   }
+  .bloco12>.container {
+    background-color: #fff;
+    height: auto !important;
+  }
+  
 
 }
 
@@ -1758,7 +1764,10 @@ p {
   width: 6%;
   margin-left: 10px;
 }
-
+.bloco12>.container {
+  background-color: #fff;
+  height: auto !important;
+}
 
 
 
