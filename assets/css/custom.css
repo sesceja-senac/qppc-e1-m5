@@ -132,12 +132,12 @@ h4 {
   margin-top: -7%;
   padding-top: 6%;
   padding-bottom: 6%;
-  background-position: fixed !important;
+  background-attachment: fixed;
 }
 
 .bloco12>.container {
   background-color: #fff;
-  height: 950px !important;
+  height: auto !important;
 }
 
 .bloco13 {
