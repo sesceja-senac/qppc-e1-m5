@@ -10,7 +10,7 @@ window.addEventListener('load', function () {
 
 
 
-// carousel
+/* // carousel
 function moveToSelected(element) {
   if (element == "next") {
     var selected = $(".selected").next();
@@ -35,7 +35,7 @@ function moveToSelected(element) {
 
   $(nextSecond).nextAll().removeClass().addClass("hideRight");
   $(prevSecond).prevAll().removeClass().addClass("hideLeft");
-}
+} */
 
 // Eventos teclado
 $(document).keydown(function (e) {
