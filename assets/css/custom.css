@@ -74,7 +74,7 @@ h4 {
   background-color: #005154;
   color: #fff;
 }
-
+.img-mob{margin: auto !important;}
 .bloco5 {
   background: url(../objetos/bg_rodape_2ccc.png) white no-repeat;
   background-size: 100% 58%;
@@ -191,7 +191,7 @@ h4 {
 }
 
 #parallax-1 {
-  background-image: url("../objetos/parallax1_3.jpeg");
+  background-image: url("../objetos/parallax1.jpg");
 }
 
 #parallax-2 {
