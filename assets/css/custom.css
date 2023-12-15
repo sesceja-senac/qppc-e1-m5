@@ -267,7 +267,7 @@ h4 {
   width: 10%;
   left: 128px;
 }
-
+.img-celso{margin-top: 15%;}
 .titulo2-pg1 {
   color: #ff9200;
 }
@@ -1516,7 +1516,7 @@ p {
   .bloco18 {
     background: unset;
   }
-
+  .img-celso{margin-top: 5%;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -1589,6 +1589,7 @@ p {
   .bloco5 {
     background-size: 100% 26%;
   }
+  .img-celso{margin-top: 5%;}
 }
 
 
@@ -1797,7 +1798,7 @@ p {
     background-color: #fff;
     height: auto !important;
   }
-
+  .img-celso{margin-top: 5%;}
 
 
 
