@@ -18,8 +18,11 @@
     background-image: url(../img/ico_vamospraticar2.png);
     width: 114px;
     height: 127px;
+    background-color: unset;
 
 }
+
+
 
 .icone.pergunta::before{
     background-image: url(../img/ico_pergunta2.png);
